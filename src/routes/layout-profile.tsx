@@ -5,7 +5,18 @@ import type { RequestHandler } from "@builder.io/qwik-city";
 import Footer from "../components/starter/footer/footer";
 import Header from "../components/starter/header/header";
 
+import type { Session } from "@auth/core/types";
 import styles from "./styles.css?inline";
+
+export const onRequest: RequestHandler = (event) => {
+	const session: Session | null = event.sharedMap.get("session");
+	if (!session || new Date(session.expires) < new Date()) {
+		throw event.redirect(
+			302,
+			`/api/auth/signin?callbackUrl=${event.url.pathname}`,
+		);
+	}
+};
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
 	// Control caching for this request for best performance and to reduce hosting costs:
@@ -28,8 +39,9 @@ export default component$(() => {
 	useStyles$(styles);
 	return (
 		<>
-			<Header />
+		<Header />
 			<main class="flex flex-col items-center p-8 lg:px-24 min-h-screen">
+				<p>Profile Layout</p>
 				<div class="z-10 h-50 w-full max-w-5xl items-center justify-between text-xl lg:flex">
 					<p class="fixed left-0 top-0 flex w-full justify-center pb-6 pt-8 lg:static lg:w-auto bg-gradient-to-b from-white via-white via-65% dark:from-black dark:via-black lg:bg-none">
 						<a href="/">Get started with Xata and Next.js</a>
@@ -42,7 +54,7 @@ export default component$(() => {
 				</div>
 				<Slot />
 			</main>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	);
 });

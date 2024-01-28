@@ -1,4 +1,12 @@
 /**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
  * WHAT IS THIS FILE?
  *
  * Globally applied styles. No matter which components are in the page or matching route,
@@ -8,11 +16,12 @@
 
 :root {
   --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
+  /* --qwik-light-blue: #18b6f6; */
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
   --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
+  --qwik-dark-background: #131313;
+  /* --qwik-dark-background: #151934; */
   --qwik-dark-text: #ffffff;
 }
 

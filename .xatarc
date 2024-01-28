@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Tedd-Tech-s-workspace-emdl7m.us-west-2.xata.sh/db/setup-db",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}

@@ -1,112 +1,69 @@
 import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import { type DocumentHead, routeLoader$, useLocation, Form, Link} from "@builder.io/qwik-city";
+import { getXataClient } from "~/xata";
 
-import Counter from "../components/starter/counter/counter";
-import Hero from "../components/starter/hero/hero";
-import Infobox from "../components/starter/infobox/infobox";
-import Starter from "../components/starter/next-steps/next-steps";
+export const useBlogPosts = routeLoader$(async (e) => {
+	const xata = getXataClient();
+	const searchParamQuery = e.url.searchParams.get("q")
+	let rq = null;
+	if (searchParamQuery) {
+		const output = await xata.db.Posts.search(searchParamQuery, { fuzziness: 2 });
+		rq = output.records;
+	} else {
+		rq = await xata.db.Posts.getAll();
+	}
+	return rq;
+});
 
 export default component$(() => {
-  return (
-    <>
-      <Hero />
-      <Starter />
+	const posts = useBlogPosts();
+	const loc = useLocation();
+	const searchParamQuery = loc.url.searchParams.get("q");
 
-      <div role="presentation" class="ellipsis"></div>
-      <div role="presentation" class="ellipsis ellipsis-purple"></div>
-
-      <div class="container container-center container-spacing-xl">
-        <h3>
-          You can <span class="highlight">count</span>
-          <br /> on me
-        </h3>
-        <Counter />
-      </div>
-
-      <div class="container container-flex">
-        <Infobox>
-          <div q:slot="title" class="icon icon-cli">
-            CLI Commands
-          </div>
-          <>
-            <p>
-              <code>npm run dev</code>
-              <br />
-              Starts the development server and watches for changes
-            </p>
-            <p>
-              <code>npm run preview</code>
-              <br />
-              Creates production build and starts a server to preview it
-            </p>
-            <p>
-              <code>npm run build</code>
-              <br />
-              Creates production build
-            </p>
-            <p>
-              <code>npm run qwik add</code>
-              <br />
-              Runs the qwik CLI to add integrations
-            </p>
-          </>
-        </Infobox>
-
-        <div>
-          <Infobox>
-            <div q:slot="title" class="icon icon-apps">
-              Example Apps
-            </div>
-            <p>
-              Have a look at the <a href="/demo/flower">Flower App</a> or the{" "}
-              <a href="/demo/todolist">Todo App</a>.
-            </p>
-          </Infobox>
-
-          <Infobox>
-            <div q:slot="title" class="icon icon-community">
-              Community
-            </div>
-            <ul>
-              <li>
-                <span>Questions or just want to say hi? </span>
-                <a href="https://qwik.builder.io/chat" target="_blank">
-                  Chat on discord!
-                </a>
-              </li>
-              <li>
-                <span>Follow </span>
-                <a href="https://twitter.com/QwikDev" target="_blank">
-                  @QwikDev
-                </a>
-                <span> on Twitter</span>
-              </li>
-              <li>
-                <span>Open issues and contribute on </span>
-                <a href="https://github.com/BuilderIO/qwik" target="_blank">
-                  GitHub
-                </a>
-              </li>
-              <li>
-                <span>Watch </span>
-                <a href="https://qwik.builder.io/media/" target="_blank">
-                  Presentations, Podcasts, Videos, etc.
-                </a>
-              </li>
-            </ul>
-          </Infobox>
-        </div>
-      </div>
-    </>
-  );
+	return (
+		<>
+			<div class="w-full max-w-5xl mt-16">
+				<Form>
+					<input
+						name="q"
+						defaultValue={searchParamQuery}
+						placeholder="Search..."
+						class="w-full rounded-lg p-2 dark:text-purple-950 text-blue-600"
+					/>
+				</Form>
+			</div>
+			<div class="w-full max-w-5xl mt-16">
+				{posts.value.length === 0 && <p>No blog posts found</p>}
+				{posts.value.map((post) => (
+					<div key={post.id} class="mb-16">
+						<p class="text-xs mb-2 text-purple-950 dark:text-purple-200">
+							{post.pubDate?.toDateString()}
+						</p>
+						<h2 class="text-2xl mb-2">
+							<Link href={`posts/${post.slug}`}>{post.title}</Link>
+						</h2>
+						<p class="text-purple-950 dark:text-purple-200 mb-5">
+							{post.description}
+						</p>
+						<Link
+							href={`posts/${post.slug}`}
+							class="px-4 py-2 font-semibold text-sm bg-purple-700 text-white rounded-lg shadow-sm w-fit"
+						>
+							Read more &rarr;
+						</Link>
+					</div>
+				))}
+			</div>
+		</>
+	);
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
-  meta: [
-    {
-      name: "description",
-      content: "Qwik site description",
-    },
-  ],
+	title: "Welcome to Qwik",
+	meta: [
+		{
+			name: "description",
+			content: "Qwik site description",
+		},
+	],
 };
