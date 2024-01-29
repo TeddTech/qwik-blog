@@ -1,0 +1,13 @@
+{
+  "id": "mig_cmr1fgq146bt0glni1l0",
+  "parentID": "mig_cmr1fe42mk3n9gsl9ceg",
+  "checksum": "1:0597ed86b256505754405cc16543edc6d1a2a1cca54878f377e1cb001617e907",
+  "operations": [
+    {
+      "removeColumn": {
+        "column": "keywords",
+        "table": "Posts"
+      }
+    }
+  ]
+}
