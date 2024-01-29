@@ -18,7 +18,7 @@ export const useBlogPosts = routeLoader$(async (e) => {
 export default component$(() => {
 	const posts = useBlogPosts();
 	const loc = useLocation();
-	const searchParamQuery = loc.url.searchParams.get("q");
+	const searchParamQuery = loc.url.searchParams.get("q") || "";
 
 	return (
 		<>
