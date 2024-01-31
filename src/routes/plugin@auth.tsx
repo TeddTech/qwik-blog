@@ -140,9 +140,9 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
 					username: { label: "Username", type: "text" },
 					password: { label: "Password", type: "password" },
 				},
-				async authorize(credentials, req) {
-					console.log("CREDENTIALS", credentials);
-					console.log("REQ", req);
+				async authorize() {
+					// console.log("CREDENTIALS", credentials);
+					// console.log("REQ", req);
 					// Add logic here to look up the user from the credentials supplied
 					const user = {
 						id: "1",
