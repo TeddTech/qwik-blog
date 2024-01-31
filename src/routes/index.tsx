@@ -2,6 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import {
 	type DocumentHead,
 	Form,
+	Link,
 	routeLoader$,
 	useLocation,
 } from "@builder.io/qwik-city";
@@ -45,17 +46,17 @@ export default component$(() => {
 							{post.pubDate?.toDateString()}
 						</p>
 						<h2 class="text-2xl mb-2">
-							<a href={`posts/${post.slug}`}>{post.title}</a>
+							<Link href={`posts/${post.slug}`}>{post.title}</Link>
 						</h2>
 						<p class="text-purple-950 dark:text-purple-200 mb-5">
 							{post.description}
 						</p>
-						<a
+						<Link
 							href={`posts/${post.slug}`}
 							class="px-4 py-2 font-semibold text-sm bg-purple-700 text-white rounded-lg shadow-sm w-fit"
 						>
 							Read more &rarr;
-						</a>
+						</Link>
 					</div>
 				))}
 			</div>
