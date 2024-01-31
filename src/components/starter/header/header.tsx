@@ -2,17 +2,17 @@ import { component$ } from "@builder.io/qwik";
 import { QwikLogo } from "../icons/qwik";
 import styles from "./header.module.css";
 
-// import { Form } from "@builder.io/qwik-city";
-// import {
-// 	useAuthSession,
-// 	useAuthSignin,
-// 	useAuthSignout,
-// } from "~/routes/plugin@auth";
+import { Form } from "@builder.io/qwik-city";
+import {
+	useAuthSession,
+	useAuthSignin,
+	useAuthSignout,
+} from "~/routes/plugin@auth";
 
 export default component$(() => {
-	// const session = useAuthSession();
-	// const signIn = useAuthSignin();
-	// const signOut = useAuthSignout();
+	const session = useAuthSession();
+	const signIn = useAuthSignin();
+	const signOut = useAuthSignout();
 
 	return (
 		<header class={styles.header}>
@@ -50,17 +50,17 @@ export default component$(() => {
 							Tutorials
 						</a>
 					</li>
-					{/* <li>
+					<li>
 						{session.value?.user?.email ? (
 							<Form action={signOut}>
-								<button  class="bg-purple-400">Sign Out</button>
+								<button class="bg-purple-400">Sign Out</button>
 							</Form>
 						) : (
 							<Form action={signIn}>
 								<button class="bg-purple-400">Sign In</button>
 							</Form>
 						)}
-					</li> */}
+					</li>
 				</ul>
 			</div>
 		</header>
