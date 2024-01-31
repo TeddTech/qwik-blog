@@ -1,10 +1,15 @@
 import { component$ } from "@builder.io/qwik";
-import { type DocumentHead, routeLoader$, useLocation, Form, Link} from "@builder.io/qwik-city";
+import {
+	type DocumentHead,
+	Form,
+	routeLoader$,
+	useLocation,
+} from "@builder.io/qwik-city";
 import { getXataClient } from "~/xata";
 
 export const useBlogPosts = routeLoader$(async (e) => {
 	const xata = getXataClient();
-	const searchParamQuery = e.url.searchParams.get("q")
+	const searchParamQuery = e.url.searchParams.get("q");
 	let rq = null;
 	if (searchParamQuery) {
 		const output = await xata.db.Posts.search(searchParamQuery, { fuzziness: 2 });
@@ -23,6 +28,14 @@ export default component$(() => {
 	return (
 		<>
 			<div class="w-full max-w-5xl mt-16">
+				<p class="text-xl">{process.env["NEXT_PUBLIC_XATA_API_KEY"]}</p>
+				<p class="text-xl">{process.env.NEXT_PUBLIC_XATA_API_KEY}</p>
+				<p class="text-xl">{process.env["XATA_API_KEY"]}</p>
+				<p class="text-xl">{process.env.XATA_API_KEY}</p>
+				<p class="text-xl">{process.env["XATA_PREVIEW"]}</p>
+				<p class="text-xl">{process.env.XATA_PREVIEW}</p>
+				<p class="text-xl">{process.env["XATA_DATABASE_URL"]}</p>
+				<p class="text-xl">{process.env.XATA_DATABASE_URL}</p>
 				<Form>
 					<input
 						name="q"
@@ -40,17 +53,17 @@ export default component$(() => {
 							{post.pubDate?.toDateString()}
 						</p>
 						<h2 class="text-2xl mb-2">
-							<Link href={`posts/${post.slug}`}>{post.title}</Link>
+							<a href={`posts/${post.slug}`}>{post.title}</a>
 						</h2>
 						<p class="text-purple-950 dark:text-purple-200 mb-5">
 							{post.description}
 						</p>
-						<Link
+						<a
 							href={`posts/${post.slug}`}
 							class="px-4 py-2 font-semibold text-sm bg-purple-700 text-white rounded-lg shadow-sm w-fit"
 						>
 							Read more &rarr;
-						</Link>
+						</a>
 					</div>
 				))}
 			</div>

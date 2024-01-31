@@ -15,13 +15,13 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
 		providers: [
 			// Sign in with Music
 			Spotify({
-				clientId: env.get("SPOTIFY_CLIENT_ID")!,
-				clientSecret: env.get("SPOTIFY_CLIENT_SECRET")!,
+				clientId: env.get("SPOTIFY_CLIENT_ID"),
+				clientSecret: env.get("SPOTIFY_CLIENT_SECRET"),
 				allowDangerousEmailAccountLinking: true,
 			}),
 			AppleProvider({
 				name: "Apple Music",
-				clientId: env.get("APPLE_ID")!,
+				clientId: env.get("APPLE_ID"),
 				clientSecret: env.get("APPLE_SECRET")!,
 				allowDangerousEmailAccountLinking: true,
 			}),
@@ -130,8 +130,8 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
 				allowDangerousEmailAccountLinking: true,
 			}),
 			Google({
-				clientId: env.get("GOOGLE_CLIENT_ID")!,
-				clientSecret: env.get("GOOGLE_CLIENT_SECRET")!,
+				clientId: env.get("GOOGLE_CLIENT_ID"),
+				clientSecret: env.get("GOOGLE_CLIENT_SECRET"),
 				allowDangerousEmailAccountLinking: true,
 			}),
 			Credentials({
@@ -140,9 +140,9 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
 					username: { label: "Username", type: "text" },
 					password: { label: "Password", type: "password" },
 				},
-				async authorize(credentials, req) {
-					console.log("CREDENTIALS", credentials)
-					console.log("REQ", req)
+				async authorize() {
+					// console.log("CREDENTIALS", credentials);
+					// console.log("REQ", req);
 					// Add logic here to look up the user from the credentials supplied
 					const user = {
 						id: "1",

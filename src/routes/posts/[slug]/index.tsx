@@ -14,14 +14,17 @@ export default component$(() => {
 	const post = useBlogPost();
 	return (
 		<div class="w-full max-w-5xl mt-16">
+			<p>{post.value?.keyword}</p>
 			<p class="mb-2">
 				<Link href="/" class="text-purple-600">
-				&larr; Back to blog
+					&larr; Back to blog
 				</Link>
 			</p>
-	
+
 			<h1 class="text-3xl mb-2 text-start">{post.value?.title}</h1>
-			<p class="text-sm mb-4 text-purple-950 dark:text-purple-200">{post.value?.pubDate?.toDateString()}</p>
+			<p class="text-sm mb-4 text-purple-950 dark:text-purple-200">
+				{post.value?.pubDate?.toDateString()}
+			</p>
 			<p class="text-xl">{post.value?.description}</p>
 		</div>
 	);

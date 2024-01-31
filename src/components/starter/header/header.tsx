@@ -53,7 +53,7 @@ export default component$(() => {
 					<li>
 						{session.value?.user?.email ? (
 							<Form action={signOut}>
-								<button  class="bg-purple-400">Sign Out</button>
+								<button class="bg-purple-400">Sign Out</button>
 							</Form>
 						) : (
 							<Form action={signIn}>
