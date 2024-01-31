@@ -10,7 +10,7 @@ import { serverAuth$ } from "@builder.io/qwik-auth";
 
 export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
 	serverAuth$(() => ({
-		secret: process.env.AUTH_SECRET,
+		secret: process.env["AUTH_SECRET"],
 		trustHost: true,
 		providers: [
 			// Sign in with Music
@@ -128,8 +128,8 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
 			// 	allowDangerousEmailAccountLinking: true,
 			// }),
 			Google({
-				clientId: process.env.GOOGLE_CLIENT_ID,
-				clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+				clientId: process.env["GOOGLE_CLIENT_ID"],
+				clientSecret: process.env["GOOGLE_CLIENT_SECRET"],
 				allowDangerousEmailAccountLinking: true,
 			}),
 			// Credentials({
