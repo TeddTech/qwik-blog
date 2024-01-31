@@ -6,7 +6,7 @@ import type { RequestHandler } from "@builder.io/qwik-city";
 
 import type { Session } from "@auth/core/types";
 
-export const onRequest: RequestHandler = (event) => {
+export const onGet: RequestHandler = (event) => {
 	const session: Session | null = event.sharedMap.get("session");
 	if (!session || new Date(session.expires) < new Date()) {
 		throw event.redirect(
