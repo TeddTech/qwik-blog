@@ -39,25 +39,25 @@ export default component$(() => {
 			</div>
 			<div class="w-full max-w-5xl mt-16">
 				{posts.value.length === 0 && <p>No blog posts found</p>}
-				{/* {posts.value.map((post) => (
+				{posts.value.map((post) => (
 					<div key={post.id} class="mb-16">
 						<p class="text-xs mb-2 text-purple-950 dark:text-purple-200">
 							{post.pubDate?.toDateString()}
 						</p>
 						<h2 class="text-2xl mb-2">
-							<Link href={`posts/${post.slug}`}>{post.title}</Link>
+							<a href={`posts/${post.slug}`}>{post.title}</a>
 						</h2>
 						<p class="text-purple-950 dark:text-purple-200 mb-5">
 							{post.description}
 						</p>
-						<Link
+						<a
 							href={`posts/${post.slug}`}
 							class="px-4 py-2 font-semibold text-sm bg-purple-700 text-white rounded-lg shadow-sm w-fit"
 						>
 							Read more &rarr;
-						</Link>
+						</a>
 					</div>
-				))} */}
+				))}
 			</div>
 		</>
 	);
