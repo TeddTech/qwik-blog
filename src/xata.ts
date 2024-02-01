@@ -15,6 +15,7 @@ const tables = [
       { name: "description", type: "text" },
       { name: "pubDate", type: "datetime" },
       { name: "keyword", type: "multiple" },
+      { name: "size", type: "string", unique: true },
     ],
   },
 ] as const;
