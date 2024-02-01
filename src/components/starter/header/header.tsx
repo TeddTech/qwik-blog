@@ -52,12 +52,12 @@ export default component$(() => {
 					</li>
 					<li>
 						{session.value?.user?.email ? (
-							<Form action={signIn}>
-								<button class="bg-purple-400">Sign In</button>
-							</Form>
-						) : (
 							<Form action={signOut}>
 								<button class="bg-purple-400">Sign Out</button>
+							</Form>
+						) : (
+							<Form action={signIn}>
+								<button class="bg-purple-400">Sign In</button>
 							</Form>
 						)}
 					</li>
