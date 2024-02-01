@@ -28,14 +28,8 @@ export default component$(() => {
 	return (
 		<>
 			<div class="w-full max-w-5xl mt-16">
-				<p class="text-xl">{process.env["NEXT_PUBLIC_XATA_API_KEY"]}</p>
-				<p class="text-xl">{process.env.NEXT_PUBLIC_XATA_API_KEY}</p>
-				<p class="text-xl">{process.env["XATA_API_KEY"]}</p>
-				<p class="text-xl">{process.env.XATA_API_KEY}</p>
-				<p class="text-xl">{process.env["XATA_PREVIEW"]}</p>
-				<p class="text-xl">{process.env.XATA_PREVIEW}</p>
-				<p class="text-xl">{process.env["XATA_DATABASE_URL"]}</p>
-				<p class="text-xl">{process.env.XATA_DATABASE_URL}</p>
+				<p class="text-xl">{process.env["XATA_BRANCH"]}</p>
+				<p class="text-xl">{process.env.XATA_BRANCH}</p>
 				<Form>
 					<input
 						name="q"
