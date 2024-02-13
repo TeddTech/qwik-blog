@@ -22,7 +22,7 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
 			AppleProvider({
 				name: "Apple Music",
 				clientId: env.get("APPLE_ID"),
-				clientSecret: env.get("APPLE_SECRET")!,
+				clientSecret: env.get("APPLE_SECRET") || "defaultClientSecret",
 				allowDangerousEmailAccountLinking: true,
 			}),
 			{
@@ -150,6 +150,7 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
 						email: "mike@example.com",
 					};
 
+					// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
 					if (user) {
 						// Any object returned will be saved in `user` property of the JWT
 						return user;

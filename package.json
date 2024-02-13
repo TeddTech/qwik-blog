@@ -23,7 +23,21 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "prettier --write",
+      "npx @biomejs/biome format --write",
+      "npx @biomejs/biome lint",
+      "eslint --max-warnings 0 ."
+    ]
+},
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "devDependencies": {
     "@auth/core": "^0.13.0",
@@ -38,6 +52,8 @@
     "autoprefixer": "^10.4.14",
     "eslint": "^8.56.0",
     "eslint-plugin-qwik": "^1.4.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.2",
     "postcss": "^8.4.31",
     "prettier": "^3.1.1",
     "prettier-plugin-tailwindcss": "^0.5.4",
