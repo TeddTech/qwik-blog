@@ -30,7 +30,7 @@
     "*.{ts,tsx,js,jsx}": [
       "prettier --write",
       "npx @biomejs/biome format --write",
-      "npx @biomejs/biome lint",
+      "npx @biomejs/biome lint --apply",
       "eslint --max-warnings 0 ."
     ],
     "*.md": [
