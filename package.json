@@ -32,7 +32,11 @@
       "npx @biomejs/biome format --write",
       "npx @biomejs/biome lint",
       "eslint --max-warnings 0 ."
-    ]
+    ],
+    "*.md": [
+        "markdownlint --fix",
+        "git add"
+      ]
   },
   "husky": {
     "hooks": {
