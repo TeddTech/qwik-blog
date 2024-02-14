@@ -66,6 +66,7 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
+    "@semantic-release/git": "^10.0.1",
     "@xata.io/client": "^0.28.3",
     "nodemailer": "^6.9.8",
     "sharp": "^0.33.2"
