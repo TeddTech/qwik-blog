@@ -32,7 +32,11 @@
       "npx @biomejs/biome format --write",
       "npx @biomejs/biome lint",
       "eslint --max-warnings 0 ."
-    ]
+    ],
+    "*.md": [
+        "markdownlint --fix",
+        "git add"
+      ]
   },
   "husky": {
     "hooks": {
@@ -66,6 +70,7 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
+    "@semantic-release/git": "^10.0.1",
     "@xata.io/client": "^0.28.3",
     "nodemailer": "^6.9.8",
     "sharp": "^0.33.2"
