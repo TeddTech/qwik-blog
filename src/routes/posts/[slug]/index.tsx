@@ -13,8 +13,7 @@ export const useBlogPost = routeLoader$(async (requestEvent) => {
 export default component$(() => {
 	const post = useBlogPost();
 	return (
-		<div class="w-full max-w-5xl mt-16">
-			<p>{`color: ${post.value?.size}`}</p>
+		<div class="mt-16 w-full max-w-5xl">
 			<p>{`keyword: ${post.value?.keyword}`}</p>
 			<p class="mb-2">
 				<Link href="/" class="text-purple-600">
@@ -22,8 +21,8 @@ export default component$(() => {
 				</Link>
 			</p>
 
-			<h1 class="text-3xl mb-2 text-start">{post.value?.title}</h1>
-			<p class="text-sm mb-4 text-purple-950 dark:text-purple-200">
+			<h1 class="mb-2 text-start text-3xl">{post.value?.title}</h1>
+			<p class="mb-4 text-sm text-purple-950 dark:text-purple-200">
 				{post.value?.pubDate?.toDateString()}
 			</p>
 			<p class="text-xl">{post.value?.description}</p>
