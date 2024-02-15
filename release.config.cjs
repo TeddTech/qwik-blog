@@ -1,7 +1,7 @@
 const config = {
 	name: "some-name",
 	description: "some description",
-	tagFormat: "v${version}alpha",
+	tagFormat: "v${nextRelease.version}alpha",
 	branches: ["main"],
 	plugins: [
 		"@semantic-release/commit-analyzer",
