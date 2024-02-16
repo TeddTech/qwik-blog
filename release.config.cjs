@@ -4,7 +4,7 @@ const config = {
 			name: "main",
 		},
 		{
-			name: "alpha",
+			name: "beta",
 			prerelease: true,
 		},
 	],
