@@ -1,7 +1,5 @@
 {
-	"docs/CHANGELOG.md": false,
 	"MD013": {
 	  "line_length": 120
-	},
-	"MD001": false
+	}
   }
