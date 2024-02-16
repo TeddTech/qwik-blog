@@ -1,3 +1,11 @@
+## [1.1.1-beta.2](https://github.com/TeddTech/qwik-blog/compare/v1.1.1-beta.1...v1.1.1-beta.2) (2024-02-16)
+
+
+### Bug Fixes
+
+* release mvp ([ba9b46c](https://github.com/TeddTech/qwik-blog/commit/ba9b46ca9a60d6015610a0f1f78b3593d595ac61))
+* The real MVP beta release ([5a5c2db](https://github.com/TeddTech/qwik-blog/commit/5a5c2dbaf1c49fda9bd92a99dccefab6463fddb3))
+
 # Semantic Versioning Changelog
 
 ## [1.1.1-beta.1](https://github.com/TeddTech/qwik-blog/compare/v1.1.0...v1.1.1-beta.1) (2024-02-16)
