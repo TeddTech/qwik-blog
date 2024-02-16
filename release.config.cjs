@@ -1,6 +1,8 @@
 const config = {
 	branches: [
-		"main",
+		{
+			name: "main",
+		},
 		{
 			name: "alpha",
 			prerelease: true,
