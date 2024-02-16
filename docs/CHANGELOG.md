@@ -1,3 +1,18 @@
+# Semantic Versioning Changelog
+
+## [1.1.1-beta.1](https://github.com/TeddTech/qwik-blog/compare/v1.1.0...v1.1.1-beta.1) (2024-02-16)
+
+
+### Bug Fixes
+
+* 🎨 added portected merge app ([54accf8](https://github.com/TeddTech/qwik-blog/commit/54accf8ed63cd8fa9409d2f6be26ee2e4ea6ae3f))
+* 🚑️ Print release working directory output. ([64e1cad](https://github.com/TeddTech/qwik-blog/commit/64e1cad0641bc900e5fd2537476ad685260847ff))
+* a ([dc2419a](https://github.com/TeddTech/qwik-blog/commit/dc2419ab1b00709b2aa13171e94956c33111380e))
+* add beta back ([5fa1183](https://github.com/TeddTech/qwik-blog/commit/5fa1183baaa4a51ad3274b2aa07af09ce8b915af))
+* added markdown ignore ([bd45999](https://github.com/TeddTech/qwik-blog/commit/bd45999bbb023b3b71f9557e2ce1d2b3f00d13f2))
+* Builts are being moved to vercel ([48e3a47](https://github.com/TeddTech/qwik-blog/commit/48e3a47d4a5cf11122191fda7aab53d108b03936))
+* changelogTitle ([d52491c](https://github.com/TeddTech/qwik-blog/commit/d52491c32c12c4e2328267703c6ef5702a2797d9))
+
 # 1.0.0-beta.1 (2024-02-16)
 
 ### Bug Fixes
