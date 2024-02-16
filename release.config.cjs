@@ -1,11 +1,8 @@
 const config = {
-	name: "some-name",
-	description: "some description",
-	tagFormat: "v${version}-alpha",
 	branches: [
 		"main",
 		{
-			name: "beta",
+			name: "alpha",
 			prerelease: true,
 		},
 	],
@@ -21,9 +18,9 @@ const config = {
 		[
 			"@semantic-release/git",
 			{
-				assets: ["dist/*.js", "dist/*.js.map", "docs/CHANGELOG.md"],
+				assets: ["dist/*.js", "dist/*.js.map", "docs/CHANGELOG.md", "package.json"],
 				message:
-					"chore(release): ${nextRelease.version}-alpha [skip ci]\n\n${nextRelease.notes}",
+					"chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
 			},
 		],
 		"@semantic-release/github",

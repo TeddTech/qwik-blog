@@ -33,7 +33,9 @@ jobs:
         run: npm audit signatures
       - name: 'Running Production Build'
         run: npm run build
+      - run: ls -al
       - name: 'Releasing via Semantic Release'
         run: npx semantic-release
+      - run: ls -al
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
