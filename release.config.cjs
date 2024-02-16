@@ -7,6 +7,10 @@ const config = {
 			name: "beta",
 			prerelease: true,
 		},
+		{
+			name: "alpha",
+			prerelease: true,
+		},
 	],
 	plugins: [
 		"@semantic-release/commit-analyzer",
@@ -15,6 +19,7 @@ const config = {
 			"@semantic-release/changelog",
 			{
 				changelogFile: "docs/CHANGELOG.md",
+				changelogTitle: "# Semantic Versioning Changelog",
 			},
 		],
 		[
