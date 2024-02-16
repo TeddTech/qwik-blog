@@ -3,6 +3,7 @@ const config = {
 	description: "some description",
 	tagFormat: "v${version}-alpha",
 	branches: [
+		"main",
 		{
 			name: "beta",
 			prerelease: true,

@@ -4,9 +4,6 @@ run-name: ${{ github.actor }} is automatically releasing 🚀
 on:
   workflow_dispatch:
 
-env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 jobs:
   release:
     permissions:
