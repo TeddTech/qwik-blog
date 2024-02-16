@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.2.0-beta.2](https://github.com/TeddTech/qwik-blog/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2024-02-16)
+
+
+### Bug Fixes
+
+* all done ([383d524](https://github.com/TeddTech/qwik-blog/commit/383d524207962e9a43a8ef2f501897f3c8e2f8cc))
+
 # [1.2.0-beta.1](https://github.com/TeddTech/qwik-blog/compare/v1.1.1-beta.2...v1.2.0-beta.1) (2024-02-16)
 
 
