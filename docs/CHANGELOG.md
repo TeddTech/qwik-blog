@@ -1,5 +1,20 @@
 # Semantic Versioning Changelog
 
+# [2.0.0-beta.3](https://github.com/TeddTech/qwik-blog/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2024-02-17)
+
+
+### Bug Fixes
+
+* confused ([eaa5366](https://github.com/TeddTech/qwik-blog/commit/eaa536624895e6890694694ebf83eeadace842ec))
+* Final release flow. ([ce50519](https://github.com/TeddTech/qwik-blog/commit/ce50519e3411f32dc7ad9ec14c6c2f8233d74a95))
+* I think its merged ([1bf2d0d](https://github.com/TeddTech/qwik-blog/commit/1bf2d0d4cd405a46cc7ccced106c6adc5670d6a3))
+* Lets see if this works. ([98bb40b](https://github.com/TeddTech/qwik-blog/commit/98bb40b4a22aa5130d49634bfeaf1d425ab9fb1b))
+
+
+### Features
+
+* Allowing. ([096f0f8](https://github.com/TeddTech/qwik-blog/commit/096f0f89a2f13c2849b7c6f1e0cb4a53f3af1061))
+
 # [2.0.0-beta.2](https://github.com/TeddTech/qwik-blog/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2024-02-17)
 
 ### Features
