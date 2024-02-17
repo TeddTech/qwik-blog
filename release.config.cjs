@@ -1,11 +1,7 @@
 const config = {
 	branches: [
 		{
-<<<<<<< HEAD
-			name: "main",
-=======
 			name: "prod",
->>>>>>> 1ef7a193d103dca0e12e52da25dfa3e5953670ec
 		},
 		{
 			name: "beta",
