@@ -1,7 +1,21 @@
 # Semantic Versioning Changelog
 
-# [2.0.0-beta.2](https://github.com/TeddTech/qwik-blog/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2024-02-17)
+# [2.0.0-beta.3](https://github.com/TeddTech/qwik-blog/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2024-02-17)
 
+
+### Bug Fixes
+
+* confused ([eaa5366](https://github.com/TeddTech/qwik-blog/commit/eaa536624895e6890694694ebf83eeadace842ec))
+* Final release flow. ([ce50519](https://github.com/TeddTech/qwik-blog/commit/ce50519e3411f32dc7ad9ec14c6c2f8233d74a95))
+* I think its merged ([1bf2d0d](https://github.com/TeddTech/qwik-blog/commit/1bf2d0d4cd405a46cc7ccced106c6adc5670d6a3))
+* Lets see if this works. ([98bb40b](https://github.com/TeddTech/qwik-blog/commit/98bb40b4a22aa5130d49634bfeaf1d425ab9fb1b))
+
+
+### Features
+
+* Allowing. ([096f0f8](https://github.com/TeddTech/qwik-blog/commit/096f0f89a2f13c2849b7c6f1e0cb4a53f3af1061))
+
+# [2.0.0-beta.2](https://github.com/TeddTech/qwik-blog/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2024-02-17)
 
 ### Features
 
@@ -9,30 +23,25 @@
 
 # [2.0.0-beta.1](https://github.com/TeddTech/qwik-blog/compare/v1.2.0-beta.3...v2.0.0-beta.1) (2024-02-17)
 
-
 ### Bug Fixes
 
 * merged ([5fa61bc](https://github.com/TeddTech/qwik-blog/commit/5fa61bc57205657b6aa6e3496f2fa818e19bb722))
 * Nothing crazy. ([#32](https://github.com/TeddTech/qwik-blog/issues/32)) ([ceb36bb](https://github.com/TeddTech/qwik-blog/commit/ceb36bba1c9e0b44a16537924782106d05cc60f2))
 
-
 ### Continuous Integration
 
 * 🔧 Seeing if release can work without app. ([#31](https://github.com/TeddTech/qwik-blog/issues/31)) ([7a8ec7f](https://github.com/TeddTech/qwik-blog/commit/7a8ec7fcf9aae3aabc14f9be6ec28b4c6da831ce))
-
 
 ### Features
 
 * Nonsence ([b7db203](https://github.com/TeddTech/qwik-blog/commit/b7db203272a51d5422d4e031f0e88ef64cce7589))
 * Trying to make it work ([2306000](https://github.com/TeddTech/qwik-blog/commit/23060006556d81550d93e76aefe2a1389fe346a4))
 
-
 ### BREAKING CHANGES
 
 * Lets see if the release still works.
 
 # [1.2.0](https://github.com/TeddTech/qwik-blog/compare/v1.1.0...v1.2.0) (2024-02-17)
-
 
 ### Bug Fixes
 
@@ -48,7 +57,6 @@
 * release mvp ([ba9b46c](https://github.com/TeddTech/qwik-blog/commit/ba9b46ca9a60d6015610a0f1f78b3593d595ac61))
 * The real MVP beta release ([5a5c2db](https://github.com/TeddTech/qwik-blog/commit/5a5c2dbaf1c49fda9bd92a99dccefab6463fddb3))
 
-
 ### Features
 
 * Forgot updated changelog. ([5a32c3b](https://github.com/TeddTech/qwik-blog/commit/5a32c3b4c8f6678460689257faa16e2d9bb2b5f5))
@@ -56,19 +64,16 @@
 
 # [1.2.0-beta.3](https://github.com/TeddTech/qwik-blog/compare/v1.2.0-beta.2...v1.2.0-beta.3) (2024-02-17)
 
-
 ### Bug Fixes
 
 * a ([#16](https://github.com/TeddTech/qwik-blog/issues/16)) ([0ac5d5a](https://github.com/TeddTech/qwik-blog/commit/0ac5d5a7459578a3d12a1733ec5b98188e741555))
 
 # [1.2.0-alpha.1](https://github.com/TeddTech/qwik-blog/compare/v1.1.0...v1.2.0-alpha.1) (2024-02-17)
 
-
 ### Bug Fixes
 
 * a ([dc2419a](https://github.com/TeddTech/qwik-blog/commit/dc2419ab1b00709b2aa13171e94956c33111380e))
 * a ([#16](https://github.com/TeddTech/qwik-blog/issues/16)) ([0ac5d5a](https://github.com/TeddTech/qwik-blog/commit/0ac5d5a7459578a3d12a1733ec5b98188e741555))
-
 
 ### Features
 
@@ -77,13 +82,11 @@
 
 # [1.2.0-beta.2](https://github.com/TeddTech/qwik-blog/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2024-02-16)
 
-
 ### Bug Fixes
 
 * all done ([383d524](https://github.com/TeddTech/qwik-blog/commit/383d524207962e9a43a8ef2f501897f3c8e2f8cc))
 
 # [1.2.0-beta.1](https://github.com/TeddTech/qwik-blog/compare/v1.1.1-beta.2...v1.2.0-beta.1) (2024-02-16)
-
 
 ### Features
 
@@ -91,7 +94,6 @@
 * Minor additions. ([9374082](https://github.com/TeddTech/qwik-blog/commit/93740826daf3ce34a6a46bd36bef6c1bde2ba884))
 
 ## [1.1.1-beta.2](https://github.com/TeddTech/qwik-blog/compare/v1.1.1-beta.1...v1.1.1-beta.2) (2024-02-16)
-
 
 ### Bug Fixes
 
@@ -101,7 +103,6 @@
 # Semantic Versioning Changelog
 
 ## [1.1.1-beta.1](https://github.com/TeddTech/qwik-blog/compare/v1.1.0...v1.1.1-beta.1) (2024-02-16)
-
 
 ### Bug Fixes
 
