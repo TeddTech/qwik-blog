@@ -1,5 +1,28 @@
 # Semantic Versioning Changelog
 
+# [1.2.0](https://github.com/TeddTech/qwik-blog/compare/v1.1.0...v1.2.0) (2024-02-17)
+
+
+### Bug Fixes
+
+* 🎨 added portected merge app ([54accf8](https://github.com/TeddTech/qwik-blog/commit/54accf8ed63cd8fa9409d2f6be26ee2e4ea6ae3f))
+* 🚑️ Print release working directory output. ([64e1cad](https://github.com/TeddTech/qwik-blog/commit/64e1cad0641bc900e5fd2537476ad685260847ff))
+* a ([dc2419a](https://github.com/TeddTech/qwik-blog/commit/dc2419ab1b00709b2aa13171e94956c33111380e))
+* a ([#16](https://github.com/TeddTech/qwik-blog/issues/16)) ([0ac5d5a](https://github.com/TeddTech/qwik-blog/commit/0ac5d5a7459578a3d12a1733ec5b98188e741555))
+* add beta back ([5fa1183](https://github.com/TeddTech/qwik-blog/commit/5fa1183baaa4a51ad3274b2aa07af09ce8b915af))
+* added markdown ignore ([bd45999](https://github.com/TeddTech/qwik-blog/commit/bd45999bbb023b3b71f9557e2ce1d2b3f00d13f2))
+* all done ([383d524](https://github.com/TeddTech/qwik-blog/commit/383d524207962e9a43a8ef2f501897f3c8e2f8cc))
+* Builts are being moved to vercel ([48e3a47](https://github.com/TeddTech/qwik-blog/commit/48e3a47d4a5cf11122191fda7aab53d108b03936))
+* changelogTitle ([d52491c](https://github.com/TeddTech/qwik-blog/commit/d52491c32c12c4e2328267703c6ef5702a2797d9))
+* release mvp ([ba9b46c](https://github.com/TeddTech/qwik-blog/commit/ba9b46ca9a60d6015610a0f1f78b3593d595ac61))
+* The real MVP beta release ([5a5c2db](https://github.com/TeddTech/qwik-blog/commit/5a5c2dbaf1c49fda9bd92a99dccefab6463fddb3))
+
+
+### Features
+
+* Forgot updated changelog. ([5a32c3b](https://github.com/TeddTech/qwik-blog/commit/5a32c3b4c8f6678460689257faa16e2d9bb2b5f5))
+* Minor additions. ([9374082](https://github.com/TeddTech/qwik-blog/commit/93740826daf3ce34a6a46bd36bef6c1bde2ba884))
+
 # [1.2.0-beta.3](https://github.com/TeddTech/qwik-blog/compare/v1.2.0-beta.2...v1.2.0-beta.3) (2024-02-17)
 
 
