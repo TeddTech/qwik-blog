@@ -1,22 +1,35 @@
 name: Release
+run-name: ${{ github.actor }} is automatically releasing 🚀
 
 on:
   workflow_dispatch:
 
 jobs:
   release:
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - name: 'Generate token'
+        id: generate_token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.PROTECTED_MERGE_APP_ID }}
+          private_key: ${{ secrets.PROTECTED_MERGE_PRIVATE_KEY }}
+      - name: 'Checking out code'
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ steps.generate_token.outputs.token }}
+      - name: 'Setting up Node'
+        uses: actions/setup-node@v3
         with:
           node-version: 20
-      - run: npm ci
-      - run: npm run build
-      - run: npx semantic-release
+      - name: 'Installing dependencies'
+        run: npm ci
+      - name: 'Verifying the signatures'
+        run: npm audit signatures
+      - name: 'Running Production Build'
+        run: npm run build
+      - name: 'Releasing via Semantic Release'
+        run: npx semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
