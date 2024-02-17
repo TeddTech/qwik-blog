@@ -1,5 +1,29 @@
 # Semantic Versioning Changelog
 
+# [2.0.0-beta.1](https://github.com/TeddTech/qwik-blog/compare/v1.2.0-beta.3...v2.0.0-beta.1) (2024-02-17)
+
+
+### Bug Fixes
+
+* merged ([5fa61bc](https://github.com/TeddTech/qwik-blog/commit/5fa61bc57205657b6aa6e3496f2fa818e19bb722))
+* Nothing crazy. ([#32](https://github.com/TeddTech/qwik-blog/issues/32)) ([ceb36bb](https://github.com/TeddTech/qwik-blog/commit/ceb36bba1c9e0b44a16537924782106d05cc60f2))
+
+
+### Continuous Integration
+
+* 🔧 Seeing if release can work without app. ([#31](https://github.com/TeddTech/qwik-blog/issues/31)) ([7a8ec7f](https://github.com/TeddTech/qwik-blog/commit/7a8ec7fcf9aae3aabc14f9be6ec28b4c6da831ce))
+
+
+### Features
+
+* Nonsence ([b7db203](https://github.com/TeddTech/qwik-blog/commit/b7db203272a51d5422d4e031f0e88ef64cce7589))
+* Trying to make it work ([2306000](https://github.com/TeddTech/qwik-blog/commit/23060006556d81550d93e76aefe2a1389fe346a4))
+
+
+### BREAKING CHANGES
+
+* Lets see if the release still works.
+
 # [1.2.0](https://github.com/TeddTech/qwik-blog/compare/v1.1.0...v1.2.0) (2024-02-17)
 
 
