@@ -1,5 +1,19 @@
 # Semantic Versioning Changelog
 
+# [1.2.0-alpha.1](https://github.com/TeddTech/qwik-blog/compare/v1.1.0...v1.2.0-alpha.1) (2024-02-17)
+
+
+### Bug Fixes
+
+* a ([dc2419a](https://github.com/TeddTech/qwik-blog/commit/dc2419ab1b00709b2aa13171e94956c33111380e))
+* a ([#16](https://github.com/TeddTech/qwik-blog/issues/16)) ([0ac5d5a](https://github.com/TeddTech/qwik-blog/commit/0ac5d5a7459578a3d12a1733ec5b98188e741555))
+
+
+### Features
+
+* Nonsence ([b7db203](https://github.com/TeddTech/qwik-blog/commit/b7db203272a51d5422d4e031f0e88ef64cce7589))
+* Trying to make it work ([2306000](https://github.com/TeddTech/qwik-blog/commit/23060006556d81550d93e76aefe2a1389fe346a4))
+
 # [1.2.0-beta.2](https://github.com/TeddTech/qwik-blog/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2024-02-16)
 
 
