@@ -1,5 +1,37 @@
 # Semantic Versioning Changelog
 
+# [3.0.0](https://github.com/TeddTech/qwik-blog/compare/v2.0.0...v3.0.0) (2024-02-18)
+
+
+### Bug Fixes
+
+* 🎨 Get production release working. ([#38](https://github.com/TeddTech/qwik-blog/issues/38)) ([6e71476](https://github.com/TeddTech/qwik-blog/commit/6e714769239520d7f6d224a6f4ea67cd71918ecf))
+* 🐛 Seems we have it down pat. ([795fe20](https://github.com/TeddTech/qwik-blog/commit/795fe2043e9513726044778bd7a2ed90622065c2))
+* Final release flow. ([ce50519](https://github.com/TeddTech/qwik-blog/commit/ce50519e3411f32dc7ad9ec14c6c2f8233d74a95))
+* fries commit ([8cdd9b7](https://github.com/TeddTech/qwik-blog/commit/8cdd9b7f96a2b24c1fa3fd5e57ff9e3bea07a0ff))
+* merge commit ([44bc9b7](https://github.com/TeddTech/qwik-blog/commit/44bc9b7e36f12a688ccbfae3386a73ba40d2a893))
+* merged ([5fa61bc](https://github.com/TeddTech/qwik-blog/commit/5fa61bc57205657b6aa6e3496f2fa818e19bb722))
+* Nothing crazy. ([#32](https://github.com/TeddTech/qwik-blog/issues/32)) ([ceb36bb](https://github.com/TeddTech/qwik-blog/commit/ceb36bba1c9e0b44a16537924782106d05cc60f2))
+
+
+### Continuous Integration
+
+* 🔧 Seeing if release can work without app. ([#31](https://github.com/TeddTech/qwik-blog/issues/31)) ([7a8ec7f](https://github.com/TeddTech/qwik-blog/commit/7a8ec7fcf9aae3aabc14f9be6ec28b4c6da831ce))
+* **config:** 🔧 Working workflow. ([#36](https://github.com/TeddTech/qwik-blog/issues/36)) ([04aa6f3](https://github.com/TeddTech/qwik-blog/commit/04aa6f3aeda668f42f869ae4c43fccc4b7bcd18f))
+
+
+### Features
+
+* Nonsence ([b7db203](https://github.com/TeddTech/qwik-blog/commit/b7db203272a51d5422d4e031f0e88ef64cce7589))
+* Trying to make it work ([2306000](https://github.com/TeddTech/qwik-blog/commit/23060006556d81550d93e76aefe2a1389fe346a4))
+
+
+### BREAKING CHANGES
+
+* Two lets see if the release still works.
+* **config:** Two lets see if the release still works.
+* Lets see if the release still works.
+
 <<<<<<< HEAD
 # [2.0.0](https://github.com/TeddTech/qwik-blog/compare/v1.2.0...v2.0.0) (2024-02-18)
 
