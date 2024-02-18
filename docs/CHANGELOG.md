@@ -1,5 +1,29 @@
 # Semantic Versioning Changelog
 
+# [3.2.0](https://github.com/TeddTech/qwik-blog/compare/v3.1.0...v3.2.0) (2024-02-18)
+
+
+### Bug Fixes
+
+* **animal:** Gitflow workflow. ([7965463](https://github.com/TeddTech/qwik-blog/commit/7965463ea245aaf00e1e94896c483f677463b63e))
+* **animal:** Gitflow workflow. ([886a3f0](https://github.com/TeddTech/qwik-blog/commit/886a3f09ed7e9a5e9e9ff51b24452d8db13e2bcf))
+* burger ([c40babc](https://github.com/TeddTech/qwik-blog/commit/c40babc89c9943b9c15cf2b9b9cb54a776dfad62))
+* e branch 'staging2' of https://github.com/TeddTech/qwik-blog into staging2 ([da506ef](https://github.com/TeddTech/qwik-blog/commit/da506ef840d2792805c934157df897891243541b))
+* hotdog ([b97fdda](https://github.com/TeddTech/qwik-blog/commit/b97fddaa47fd2debc133432902f050de1825bbb6))
+* merge ([f586b0c](https://github.com/TeddTech/qwik-blog/commit/f586b0ce5e2704ede71af5a28481321818ea5dcd))
+* Pie commit. ([27a77f0](https://github.com/TeddTech/qwik-blog/commit/27a77f040c6c306aaa381821f56f2398c81176ec))
+* pizza workflow ([5b383ee](https://github.com/TeddTech/qwik-blog/commit/5b383eeb11a4348f5e1473181c10619c065cbcd0))
+* tiger ([7915454](https://github.com/TeddTech/qwik-blog/commit/7915454af5e3257488a4e7ea19f6a1e27bbeeb89))
+* workflow ([a80cc48](https://github.com/TeddTech/qwik-blog/commit/a80cc48d960c7d0aeceba04e0435194e672b5563))
+* **workflow:** Rice commit. ([038b5fe](https://github.com/TeddTech/qwik-blog/commit/038b5fe4d4403dfbfb7a80cf445924780f425a7f))
+* **workflow:** Rice commit. ([84fa69d](https://github.com/TeddTech/qwik-blog/commit/84fa69d108ef9c007a6c6ffbb228ac1ed2e83b50))
+
+
+### Features
+
+* **release:** Version bump. ([3db195f](https://github.com/TeddTech/qwik-blog/commit/3db195f36e5a98cd68ee11e48e2a888c25e80252))
+* **release:** Version bump. ([90d4fd9](https://github.com/TeddTech/qwik-blog/commit/90d4fd9f31d46670e6eed0ff64fb714887418e34))
+
 # [3.1.0](https://github.com/TeddTech/qwik-blog/compare/v3.0.1...v3.1.0) (2024-02-18)
 
 
