@@ -1,5 +1,18 @@
 # Semantic Versioning Changelog
 
+# [3.3.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v3.3.0) (2024-02-18)
+
+
+### Bug Fixes
+
+* burger ([bc850ef](https://github.com/TeddTech/qwik-blog/commit/bc850ef6ebfc051e5d7e832b2eec66cf4bac5ab3))
+* pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
+
+
+### Features
+
+* staging3 ([9cc4566](https://github.com/TeddTech/qwik-blog/commit/9cc4566d710aff2d00fc08965ba66d6bcd41152b))
+
 # [3.2.0](https://github.com/TeddTech/qwik-blog/compare/v3.1.0...v3.2.0) (2024-02-18)
 
 
