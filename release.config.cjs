@@ -3,7 +3,6 @@ const config = {
 		{ name: "placeholderReleaseBranch" },
 		{
 			name: "prod",
-			prerelease: true,
 		},
 		{
 			name: "beta",
