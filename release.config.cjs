@@ -1,9 +1,7 @@
 const config = {
 	branches: [
-		{ name: "placeholderReleaseBranch" },
 		{
 			name: "prod",
-			prerelease: true,
 		},
 		{
 			name: "beta",
