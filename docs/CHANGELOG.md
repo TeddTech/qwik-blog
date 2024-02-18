@@ -8,6 +8,21 @@
 * Flowing ([265a8ab](https://github.com/TeddTech/qwik-blog/commit/265a8ab0d8afd3b136df8eb73734d7cf996e352b))
 * fries commit ([105059c](https://github.com/TeddTech/qwik-blog/commit/105059c28bca40e880bfdccc2e3841961f8a38e2))
 * Merged youtube. ([0f0668a](https://github.com/TeddTech/qwik-blog/commit/0f0668a134413afff087afa010bceba302bc26cd))
+* Pie commit. ([c0756eb](https://github.com/TeddTech/qwik-blog/commit/c0756eb7fb6fc05a4ffb915c2b6227ed666f7b52))
+* Pizza has been delivered. ([8cb303e](https://github.com/TeddTech/qwik-blog/commit/8cb303e1ccf425d5794c1063f3b045214e8a6c3c))
+* Pizza has been delivered. ([95d42e2](https://github.com/TeddTech/qwik-blog/commit/95d42e25ad20e8157c66a927c5b7de1e15836367))
+* **playdough:** Merge branch 'prod' into staging2 ([3ca1d11](https://github.com/TeddTech/qwik-blog/commit/3ca1d11216f9ee0862f4f82a7375dbdc19cd7203))
+* staging2 ([f95a5f3](https://github.com/TeddTech/qwik-blog/commit/f95a5f32279c6013b67ec60aaa1fc57be8454078))
+* **workflow:** Rice commit. ([a4ee7d8](https://github.com/TeddTech/qwik-blog/commit/a4ee7d8c97ed3ea0988770b744487e523f7692c8))
+
+## [3.0.2](https://github.com/TeddTech/qwik-blog/compare/v3.0.1...v3.0.2) (2024-02-18)
+
+
+### Bug Fixes
+
+* Flowing ([265a8ab](https://github.com/TeddTech/qwik-blog/commit/265a8ab0d8afd3b136df8eb73734d7cf996e352b))
+* fries commit ([105059c](https://github.com/TeddTech/qwik-blog/commit/105059c28bca40e880bfdccc2e3841961f8a38e2))
+* Merged youtube. ([0f0668a](https://github.com/TeddTech/qwik-blog/commit/0f0668a134413afff087afa010bceba302bc26cd))
 * Pizza has been delivered. ([c0abb4d](https://github.com/TeddTech/qwik-blog/commit/c0abb4d6abc196354970a109cb6e1380b9801e35))
 
 ## [3.0.1](https://github.com/TeddTech/qwik-blog/compare/v3.0.0...v3.0.1) (2024-02-18)
