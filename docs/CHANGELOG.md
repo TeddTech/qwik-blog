@@ -1,5 +1,15 @@
 # Semantic Versioning Changelog
 
+## [3.0.2](https://github.com/TeddTech/qwik-blog/compare/v3.0.1...v3.0.2) (2024-02-18)
+
+
+### Bug Fixes
+
+* Flowing ([265a8ab](https://github.com/TeddTech/qwik-blog/commit/265a8ab0d8afd3b136df8eb73734d7cf996e352b))
+* fries commit ([105059c](https://github.com/TeddTech/qwik-blog/commit/105059c28bca40e880bfdccc2e3841961f8a38e2))
+* Merged youtube. ([0f0668a](https://github.com/TeddTech/qwik-blog/commit/0f0668a134413afff087afa010bceba302bc26cd))
+* Pizza has been delivered. ([c0abb4d](https://github.com/TeddTech/qwik-blog/commit/c0abb4d6abc196354970a109cb6e1380b9801e35))
+
 ## [3.0.1](https://github.com/TeddTech/qwik-blog/compare/v3.0.0...v3.0.1) (2024-02-18)
 
 ### Bug Fixes
