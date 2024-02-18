@@ -1,5 +1,17 @@
 # Semantic Versioning Changelog
 
+# [2.0.0-prod.1](https://github.com/TeddTech/qwik-blog/compare/v1.2.0...v2.0.0-prod.1) (2024-02-18)
+
+
+* Production releaseD (#39) ([c112ba4](https://github.com/TeddTech/qwik-blog/commit/c112ba4bd97da07631582bac5620b3f026f2e842)), closes [#39](https://github.com/TeddTech/qwik-blog/issues/39) [#16](https://github.com/TeddTech/qwik-blog/issues/16) [#31](https://github.com/TeddTech/qwik-blog/issues/31) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#34](https://github.com/TeddTech/qwik-blog/issues/34) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#31](https://github.com/TeddTech/qwik-blog/issues/31)
+* Production Release (#37) ([4421ea4](https://github.com/TeddTech/qwik-blog/commit/4421ea479d532cdade026b79bc0175ea0d48ee3b)), closes [#37](https://github.com/TeddTech/qwik-blog/issues/37) [#16](https://github.com/TeddTech/qwik-blog/issues/16) [#31](https://github.com/TeddTech/qwik-blog/issues/31) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#34](https://github.com/TeddTech/qwik-blog/issues/34) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#31](https://github.com/TeddTech/qwik-blog/issues/31)
+
+
+### BREAKING CHANGES
+
+* Lets see if the release still works.
+* Lets see if the release still works.
+
 # [2.0.0-beta.3](https://github.com/TeddTech/qwik-blog/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2024-02-17)
 
 ### Bug Fixes
