@@ -1,7 +1,12 @@
 # Semantic Versioning Changelog
 
-# [3.0.0](https://github.com/TeddTech/qwik-blog/compare/v2.0.0...v3.0.0) (2024-02-18)
+## [3.0.1](https://github.com/TeddTech/qwik-blog/compare/v3.0.0...v3.0.1) (2024-02-18)
 
+### Bug Fixes
+
+* Flowing ([2f24e11](https://github.com/TeddTech/qwik-blog/commit/2f24e113e54a53e6be077f6e41bc531f41e20fe0))
+
+# [3.0.0](https://github.com/TeddTech/qwik-blog/compare/v2.0.0...v3.0.0) (2024-02-18)
 
 ### Bug Fixes
 
@@ -13,18 +18,15 @@
 * merged ([5fa61bc](https://github.com/TeddTech/qwik-blog/commit/5fa61bc57205657b6aa6e3496f2fa818e19bb722))
 * Nothing crazy. ([#32](https://github.com/TeddTech/qwik-blog/issues/32)) ([ceb36bb](https://github.com/TeddTech/qwik-blog/commit/ceb36bba1c9e0b44a16537924782106d05cc60f2))
 
-
 ### Continuous Integration
 
 * 🔧 Seeing if release can work without app. ([#31](https://github.com/TeddTech/qwik-blog/issues/31)) ([7a8ec7f](https://github.com/TeddTech/qwik-blog/commit/7a8ec7fcf9aae3aabc14f9be6ec28b4c6da831ce))
 * **config:** 🔧 Working workflow. ([#36](https://github.com/TeddTech/qwik-blog/issues/36)) ([04aa6f3](https://github.com/TeddTech/qwik-blog/commit/04aa6f3aeda668f42f869ae4c43fccc4b7bcd18f))
 
-
 ### Features
 
 * Nonsence ([b7db203](https://github.com/TeddTech/qwik-blog/commit/b7db203272a51d5422d4e031f0e88ef64cce7589))
 * Trying to make it work ([2306000](https://github.com/TeddTech/qwik-blog/commit/23060006556d81550d93e76aefe2a1389fe346a4))
-
 
 ### BREAKING CHANGES
 
@@ -32,15 +34,12 @@
 * **config:** Two lets see if the release still works.
 * Lets see if the release still works.
 
-<<<<<<< HEAD
 # [2.0.0](https://github.com/TeddTech/qwik-blog/compare/v1.2.0...v2.0.0) (2024-02-18)
-
 
 * catch up (#44) ([cf1bb61](https://github.com/TeddTech/qwik-blog/commit/cf1bb61004407a04762c7803e9a88fac1ac66bda)), closes [#44](https://github.com/TeddTech/qwik-blog/issues/44) [#16](https://github.com/TeddTech/qwik-blog/issues/16) [#31](https://github.com/TeddTech/qwik-blog/issues/31) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#34](https://github.com/TeddTech/qwik-blog/issues/34) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#31](https://github.com/TeddTech/qwik-blog/issues/31)
 * Seem to have it PR (#43) ([76918b0](https://github.com/TeddTech/qwik-blog/commit/76918b0a5fc4e8a003cb20c3622eda3d8574a3a0)), closes [#43](https://github.com/TeddTech/qwik-blog/issues/43) [#16](https://github.com/TeddTech/qwik-blog/issues/16) [#31](https://github.com/TeddTech/qwik-blog/issues/31) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#34](https://github.com/TeddTech/qwik-blog/issues/34) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#31](https://github.com/TeddTech/qwik-blog/issues/31)
 * Production releaseD (#39) ([c112ba4](https://github.com/TeddTech/qwik-blog/commit/c112ba4bd97da07631582bac5620b3f026f2e842)), closes [#39](https://github.com/TeddTech/qwik-blog/issues/39) [#16](https://github.com/TeddTech/qwik-blog/issues/16) [#31](https://github.com/TeddTech/qwik-blog/issues/31) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#34](https://github.com/TeddTech/qwik-blog/issues/34) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#31](https://github.com/TeddTech/qwik-blog/issues/31)
 * Production Release (#37) ([4421ea4](https://github.com/TeddTech/qwik-blog/commit/4421ea479d532cdade026b79bc0175ea0d48ee3b)), closes [#37](https://github.com/TeddTech/qwik-blog/issues/37) [#16](https://github.com/TeddTech/qwik-blog/issues/16) [#31](https://github.com/TeddTech/qwik-blog/issues/31) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#34](https://github.com/TeddTech/qwik-blog/issues/34) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#31](https://github.com/TeddTech/qwik-blog/issues/31)
-
 
 ### BREAKING CHANGES
 
@@ -49,14 +48,10 @@
 * Lets see if the release still works.
 * Lets see if the release still works.
 
-=======
->>>>>>> main
 # [2.0.0-prod.1](https://github.com/TeddTech/qwik-blog/compare/v1.2.0...v2.0.0-prod.1) (2024-02-18)
-
 
 * Production releaseD (#39) ([c112ba4](https://github.com/TeddTech/qwik-blog/commit/c112ba4bd97da07631582bac5620b3f026f2e842)), closes [#39](https://github.com/TeddTech/qwik-blog/issues/39) [#16](https://github.com/TeddTech/qwik-blog/issues/16) [#31](https://github.com/TeddTech/qwik-blog/issues/31) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#34](https://github.com/TeddTech/qwik-blog/issues/34) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#31](https://github.com/TeddTech/qwik-blog/issues/31)
 * Production Release (#37) ([4421ea4](https://github.com/TeddTech/qwik-blog/commit/4421ea479d532cdade026b79bc0175ea0d48ee3b)), closes [#37](https://github.com/TeddTech/qwik-blog/issues/37) [#16](https://github.com/TeddTech/qwik-blog/issues/16) [#31](https://github.com/TeddTech/qwik-blog/issues/31) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#34](https://github.com/TeddTech/qwik-blog/issues/34) [#32](https://github.com/TeddTech/qwik-blog/issues/32) [#31](https://github.com/TeddTech/qwik-blog/issues/31)
-
 
 ### BREAKING CHANGES
 
