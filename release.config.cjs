@@ -2,6 +2,7 @@ const config = {
 	branches: [
 		{
 			name: "prod",
+			prerelease: true,
 		},
 		{
 			name: "beta",
