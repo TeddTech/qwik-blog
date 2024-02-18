@@ -1,5 +1,6 @@
 # Semantic Versioning Changelog
 
+<<<<<<< HEAD
 # [2.0.0](https://github.com/TeddTech/qwik-blog/compare/v1.2.0...v2.0.0) (2024-02-18)
 
 
@@ -16,6 +17,8 @@
 * Lets see if the release still works.
 * Lets see if the release still works.
 
+=======
+>>>>>>> main
 # [2.0.0-prod.1](https://github.com/TeddTech/qwik-blog/compare/v1.2.0...v2.0.0-prod.1) (2024-02-18)
 
 
