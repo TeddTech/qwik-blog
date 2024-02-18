@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [3.0.1](https://github.com/TeddTech/qwik-blog/compare/v3.0.0...v3.0.1) (2024-02-18)
+
+
+### Bug Fixes
+
+* Flowing ([2f24e11](https://github.com/TeddTech/qwik-blog/commit/2f24e113e54a53e6be077f6e41bc531f41e20fe0))
+
 # [3.0.0](https://github.com/TeddTech/qwik-blog/compare/v2.0.0...v3.0.0) (2024-02-18)
 
 
