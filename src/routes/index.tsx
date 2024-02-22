@@ -30,7 +30,7 @@ export default component$(() => {
 	return (
 		<>
 			<div class="mt-16 w-full max-w-5xl">
-				<div>Tiger release</div>
+				<div>Tiger release 5</div>
 				<Form>
 					<input
 						name="q"

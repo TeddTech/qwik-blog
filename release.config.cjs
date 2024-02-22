@@ -1,5 +1,4 @@
 const config = {
-	tag: false,
 	branches: [
 		{
 			name: "main",
