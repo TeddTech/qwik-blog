@@ -2,7 +2,7 @@ const config = {
 	tag: false,
 	branches: [
 		{
-			name: "prod3",
+			name: "main",
 		},
 		{
 			name: "beta",
