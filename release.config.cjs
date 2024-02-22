@@ -1,4 +1,5 @@
 const config = {
+	tag: false,
 	branches: [
 		{
 			name: "prod3",
