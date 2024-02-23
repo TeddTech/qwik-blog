@@ -2,25 +2,21 @@
 
 ## [4.1.1](https://github.com/TeddTech/qwik-blog/compare/v4.1.0...v4.1.1) (2024-02-23)
 
-
 ### Bug Fixes
 
 * test sr ([b92592d](https://github.com/TeddTech/qwik-blog/commit/b92592d04c395f9a056047bf03abca2f0f89efaf))
 
 # [4.1.0](https://github.com/TeddTech/qwik-blog/compare/v4.0.0...v4.1.0) (2024-02-23)
 
-
 ### Bug Fixes
 
 * test fix ([c379e59](https://github.com/TeddTech/qwik-blog/commit/c379e59ae64e1e20bd79823c3550da4fd5b6cd98))
 
-
 ### Features
 
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([0020e1b](https://github.com/TeddTech/qwik-blog/commit/0020e1badc18e9ab93c0b5d72a3654f3d803d8f2))
+* Merge branch 'main' of <https://github.com/TeddTech/qwik-blog> ([0020e1b](https://github.com/TeddTech/qwik-blog/commit/0020e1badc18e9ab93c0b5d72a3654f3d803d8f2))
 
 # [4.0.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v4.0.0) (2024-02-22)
-
 
 ### Bug Fixes
 
@@ -32,7 +28,7 @@
 * **config:** use prod2 for release ([6dd3b34](https://github.com/TeddTech/qwik-blog/commit/6dd3b3480de9d6b1a462aa13e43c83421af4c505))
 * flying commit ([a974aa9](https://github.com/TeddTech/qwik-blog/commit/a974aa92bd910928c65676f1532e16c1f75380f7))
 * jumping commit ([3da32a9](https://github.com/TeddTech/qwik-blog/commit/3da32a945d88f6b62127e4d254f474e73d2207f8))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
+* Merge branch 'main' of <https://github.com/TeddTech/qwik-blog> ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
 * pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
 * pipeline ([5208961](https://github.com/TeddTech/qwik-blog/commit/520896191999c77450fadd264ad22e8b0630fbd6))
 * release on main ([f3a6509](https://github.com/TeddTech/qwik-blog/commit/f3a65094ba59a1ccd927da88dfd7c422861b18e1))
@@ -45,7 +41,6 @@
 * talking commit ([44e5449](https://github.com/TeddTech/qwik-blog/commit/44e544932130a6344e256c50de2eb2342db23d4b))
 * walking commit ([d8015b1](https://github.com/TeddTech/qwik-blog/commit/d8015b11999e5203f8556ac4cafce7b54aaaf673))
 * walking commit ([4e80d79](https://github.com/TeddTech/qwik-blog/commit/4e80d79a208733e44fea7ae4ad743f5e39e509ec))
-
 
 ### chore
 
@@ -54,25 +49,22 @@
 * **release:** 4.0.0 [skip ci] ([30a4089](https://github.com/TeddTech/qwik-blog/commit/30a40893fdf77be3f8585a5ad66027b7359953e2)), closes [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98) [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98)
 * **release:** 4.0.0 [skip ci] ([a42b63f](https://github.com/TeddTech/qwik-blog/commit/a42b63f3227fe467767fd27e1d2c1f58496cbf4b)), closes [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98)
 
-
 ### Continuous Integration
 
 * breaking change ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
 * use prod5 ([40667d3](https://github.com/TeddTech/qwik-blog/commit/40667d385e16fb10949aec35388b1c0b04f5fec9))
 
-
 ### Features
 
 * dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
 * dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([9815d41](https://github.com/TeddTech/qwik-blog/commit/9815d41a438be3361af3e11a08331ee97b26dfa9))
+* Merge branch 'main' of <https://github.com/TeddTech/qwik-blog> ([9815d41](https://github.com/TeddTech/qwik-blog/commit/9815d41a438be3361af3e11a08331ee97b26dfa9))
 * skip tag ([26595f3](https://github.com/TeddTech/qwik-blog/commit/26595f37c8d9e5784262e81d809259d524f8c1c7))
 * staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
 * staging3 ([#100](https://github.com/TeddTech/qwik-blog/issues/100)) back in ([07639d8](https://github.com/TeddTech/qwik-blog/commit/07639d888d10dc65020a30dc1019927059bb9e39))
 * staging3 ([#98](https://github.com/TeddTech/qwik-blog/issues/98)) back in ([8c7befe](https://github.com/TeddTech/qwik-blog/commit/8c7befe199a3fedf1ce03b90bc47e8947b49cedd))
 * use prod5 ([da870da](https://github.com/TeddTech/qwik-blog/commit/da870da78828849d760f974dd54917ab7c6dc3c9))
 * use prod5 ([6ad0946](https://github.com/TeddTech/qwik-blog/commit/6ad094658d25c1b80e190be652d3ce4fa528288b))
-
 
 ### BREAKING CHANGES
 
@@ -83,7 +75,7 @@
 
 * dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
 * dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([9815d41](https://github.com/TeddTech/qwik-blog/commit/9815d41a438be3361af3e11a08331ee97b26dfa9))
+* Merge branch 'main' of <https://github.com/TeddTech/qwik-blog> ([9815d41](https://github.com/TeddTech/qwik-blog/commit/9815d41a438be3361af3e11a08331ee97b26dfa9))
 * skip tag ([26595f3](https://github.com/TeddTech/qwik-blog/commit/26595f37c8d9e5784262e81d809259d524f8c1c7))
 * staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
 * this is old3
@@ -94,7 +86,7 @@
 
 * dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
 * dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([9815d41](https://github.com/TeddTech/qwik-blog/commit/9815d41a438be3361af3e11a08331ee97b26dfa9))
+* Merge branch 'main' of <https://github.com/TeddTech/qwik-blog> ([9815d41](https://github.com/TeddTech/qwik-blog/commit/9815d41a438be3361af3e11a08331ee97b26dfa9))
 * skip tag ([26595f3](https://github.com/TeddTech/qwik-blog/commit/26595f37c8d9e5784262e81d809259d524f8c1c7))
 * staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
 * this is old
@@ -116,316 +108,9 @@
 * v4 to v5
 * v4 to v5
 * this is old
-
-# [4.0.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v4.0.0) (2024-02-22)
-
-
-### Bug Fixes
-
-* add fasting to markdownlint ([b234f37](https://github.com/TeddTech/qwik-blog/commit/b234f3798b334549b74da2cb9d16417bf8793f3b))
-* add fasting to markdownlint ([937d43e](https://github.com/TeddTech/qwik-blog/commit/937d43e293f286b25e66d93b9bf6c3f9d19e0fd0))
-* add fasting to markdownlint ([2826cf2](https://github.com/TeddTech/qwik-blog/commit/2826cf254d7e608c81de11bf6ffb498af3e9dfb0))
-* blash ([10d045f](https://github.com/TeddTech/qwik-blog/commit/10d045f975f71751d0569d3daf625a87be485660))
-* burger ([bc850ef](https://github.com/TeddTech/qwik-blog/commit/bc850ef6ebfc051e5d7e832b2eec66cf4bac5ab3))
-* **config:** use prod2 for release ([6dd3b34](https://github.com/TeddTech/qwik-blog/commit/6dd3b3480de9d6b1a462aa13e43c83421af4c505))
-* flying commit ([a974aa9](https://github.com/TeddTech/qwik-blog/commit/a974aa92bd910928c65676f1532e16c1f75380f7))
-* jumping commit ([3da32a9](https://github.com/TeddTech/qwik-blog/commit/3da32a945d88f6b62127e4d254f474e73d2207f8))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
-* pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
-* pipeline ([5208961](https://github.com/TeddTech/qwik-blog/commit/520896191999c77450fadd264ad22e8b0630fbd6))
-* release on main ([f3a6509](https://github.com/TeddTech/qwik-blog/commit/f3a65094ba59a1ccd927da88dfd7c422861b18e1))
-* running commit ([d1d8388](https://github.com/TeddTech/qwik-blog/commit/d1d838811d98a08e86c3e1eff839ed0d84a62d41))
-* skating commit ([5995dc8](https://github.com/TeddTech/qwik-blog/commit/5995dc80b6bf37ca894ee4bb81155e99e09853a0))
-* skating commit ([75a4fe2](https://github.com/TeddTech/qwik-blog/commit/75a4fe2bd6e1ad180033b1c9af624374ffc3c1c8))
-* sms ([784d3c6](https://github.com/TeddTech/qwik-blog/commit/784d3c63d647bf31c09f4efe1fa7a285f30cc685))
-* sms ([1f93c93](https://github.com/TeddTech/qwik-blog/commit/1f93c9387f12ef22c97db095124f940889189dc5))
-* speaking commit -m ([25fe9a7](https://github.com/TeddTech/qwik-blog/commit/25fe9a795a940e276738fae280ebfde6bf93bc7a))
-* talking commit ([44e5449](https://github.com/TeddTech/qwik-blog/commit/44e544932130a6344e256c50de2eb2342db23d4b))
-* walking commit ([d8015b1](https://github.com/TeddTech/qwik-blog/commit/d8015b11999e5203f8556ac4cafce7b54aaaf673))
-* walking commit ([4e80d79](https://github.com/TeddTech/qwik-blog/commit/4e80d79a208733e44fea7ae4ad743f5e39e509ec))
-
-
-### chore
-
-* **release:** 4.0.0 [skip ci] ([c7cba5e](https://github.com/TeddTech/qwik-blog/commit/c7cba5e323bbfe2dc82fb52f78aec4511ba58049)), closes [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98) [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98) [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98) [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98)
-* **release:** 4.0.0 [skip ci] ([30a4089](https://github.com/TeddTech/qwik-blog/commit/30a40893fdf77be3f8585a5ad66027b7359953e2)), closes [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98) [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98)
-* **release:** 4.0.0 [skip ci] ([a42b63f](https://github.com/TeddTech/qwik-blog/commit/a42b63f3227fe467767fd27e1d2c1f58496cbf4b)), closes [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98)
-
-
-### Continuous Integration
-
-* breaking change ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-* use prod5 ([40667d3](https://github.com/TeddTech/qwik-blog/commit/40667d385e16fb10949aec35388b1c0b04f5fec9))
-
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([9815d41](https://github.com/TeddTech/qwik-blog/commit/9815d41a438be3361af3e11a08331ee97b26dfa9))
-* skip tag ([26595f3](https://github.com/TeddTech/qwik-blog/commit/26595f37c8d9e5784262e81d809259d524f8c1c7))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* staging3 ([#100](https://github.com/TeddTech/qwik-blog/issues/100)) back in ([07639d8](https://github.com/TeddTech/qwik-blog/commit/07639d888d10dc65020a30dc1019927059bb9e39))
-* staging3 ([#98](https://github.com/TeddTech/qwik-blog/issues/98)) back in ([8c7befe](https://github.com/TeddTech/qwik-blog/commit/8c7befe199a3fedf1ce03b90bc47e8947b49cedd))
-* use prod5 ([da870da](https://github.com/TeddTech/qwik-blog/commit/da870da78828849d760f974dd54917ab7c6dc3c9))
-* use prod5 ([6ad0946](https://github.com/TeddTech/qwik-blog/commit/6ad094658d25c1b80e190be652d3ce4fa528288b))
-
-
-### BREAKING CHANGES
-
-* this is old3
-* **release:** ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-* use prod5 ([40667d3](https://github.com/TeddTech/qwik-blog/commit/40667d385e16fb10949aec35388b1c0b04f5fec9))
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([9815d41](https://github.com/TeddTech/qwik-blog/commit/9815d41a438be3361af3e11a08331ee97b26dfa9))
-* skip tag ([26595f3](https://github.com/TeddTech/qwik-blog/commit/26595f37c8d9e5784262e81d809259d524f8c1c7))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* this is old
-* **release:** ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* skip tag ([26595f3](https://github.com/TeddTech/qwik-blog/commit/26595f37c8d9e5784262e81d809259d524f8c1c7))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* **release:** ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* v4 to v5
-* v4 to v5
-* this is old
-
-# [4.0.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v4.0.0) (2024-02-22)
-
-
-### Bug Fixes
-
-* add fasting to markdownlint ([b234f37](https://github.com/TeddTech/qwik-blog/commit/b234f3798b334549b74da2cb9d16417bf8793f3b))
-* add fasting to markdownlint ([937d43e](https://github.com/TeddTech/qwik-blog/commit/937d43e293f286b25e66d93b9bf6c3f9d19e0fd0))
-* add fasting to markdownlint ([2826cf2](https://github.com/TeddTech/qwik-blog/commit/2826cf254d7e608c81de11bf6ffb498af3e9dfb0))
-* burger ([bc850ef](https://github.com/TeddTech/qwik-blog/commit/bc850ef6ebfc051e5d7e832b2eec66cf4bac5ab3))
-* **config:** use prod2 for release ([6dd3b34](https://github.com/TeddTech/qwik-blog/commit/6dd3b3480de9d6b1a462aa13e43c83421af4c505))
-* flying commit ([a974aa9](https://github.com/TeddTech/qwik-blog/commit/a974aa92bd910928c65676f1532e16c1f75380f7))
-* jumping commit ([3da32a9](https://github.com/TeddTech/qwik-blog/commit/3da32a945d88f6b62127e4d254f474e73d2207f8))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
-* pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
-* pipeline ([5208961](https://github.com/TeddTech/qwik-blog/commit/520896191999c77450fadd264ad22e8b0630fbd6))
-* release on main ([f3a6509](https://github.com/TeddTech/qwik-blog/commit/f3a65094ba59a1ccd927da88dfd7c422861b18e1))
-* running commit ([d1d8388](https://github.com/TeddTech/qwik-blog/commit/d1d838811d98a08e86c3e1eff839ed0d84a62d41))
-* skating commit ([5995dc8](https://github.com/TeddTech/qwik-blog/commit/5995dc80b6bf37ca894ee4bb81155e99e09853a0))
-* skating commit ([75a4fe2](https://github.com/TeddTech/qwik-blog/commit/75a4fe2bd6e1ad180033b1c9af624374ffc3c1c8))
-* sms ([784d3c6](https://github.com/TeddTech/qwik-blog/commit/784d3c63d647bf31c09f4efe1fa7a285f30cc685))
-* sms ([1f93c93](https://github.com/TeddTech/qwik-blog/commit/1f93c9387f12ef22c97db095124f940889189dc5))
-* speaking commit -m ([25fe9a7](https://github.com/TeddTech/qwik-blog/commit/25fe9a795a940e276738fae280ebfde6bf93bc7a))
-* talking commit ([44e5449](https://github.com/TeddTech/qwik-blog/commit/44e544932130a6344e256c50de2eb2342db23d4b))
-* walking commit ([d8015b1](https://github.com/TeddTech/qwik-blog/commit/d8015b11999e5203f8556ac4cafce7b54aaaf673))
-* walking commit ([4e80d79](https://github.com/TeddTech/qwik-blog/commit/4e80d79a208733e44fea7ae4ad743f5e39e509ec))
-
-
-### chore
-
-* **release:** 4.0.0 [skip ci] ([30a4089](https://github.com/TeddTech/qwik-blog/commit/30a40893fdf77be3f8585a5ad66027b7359953e2)), closes [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98) [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98)
-* **release:** 4.0.0 [skip ci] ([a42b63f](https://github.com/TeddTech/qwik-blog/commit/a42b63f3227fe467767fd27e1d2c1f58496cbf4b)), closes [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98)
-
-
-### Continuous Integration
-
-* breaking change ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-* use prod5 ([40667d3](https://github.com/TeddTech/qwik-blog/commit/40667d385e16fb10949aec35388b1c0b04f5fec9))
-
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([9815d41](https://github.com/TeddTech/qwik-blog/commit/9815d41a438be3361af3e11a08331ee97b26dfa9))
-* skip tag ([26595f3](https://github.com/TeddTech/qwik-blog/commit/26595f37c8d9e5784262e81d809259d524f8c1c7))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* staging3 ([#100](https://github.com/TeddTech/qwik-blog/issues/100)) back in ([07639d8](https://github.com/TeddTech/qwik-blog/commit/07639d888d10dc65020a30dc1019927059bb9e39))
-* staging3 ([#98](https://github.com/TeddTech/qwik-blog/issues/98)) back in ([8c7befe](https://github.com/TeddTech/qwik-blog/commit/8c7befe199a3fedf1ce03b90bc47e8947b49cedd))
-* use prod5 ([da870da](https://github.com/TeddTech/qwik-blog/commit/da870da78828849d760f974dd54917ab7c6dc3c9))
-* use prod5 ([6ad0946](https://github.com/TeddTech/qwik-blog/commit/6ad094658d25c1b80e190be652d3ce4fa528288b))
-
-
-### BREAKING CHANGES
-
-* this is old
-* **release:** ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* skip tag ([26595f3](https://github.com/TeddTech/qwik-blog/commit/26595f37c8d9e5784262e81d809259d524f8c1c7))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* **release:** ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* v4 to v5
-* v4 to v5
-* this is old
-
-# [4.0.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v4.0.0) (2024-02-22)
-
-
-### Bug Fixes
-
-* add fasting to markdownlint ([b234f37](https://github.com/TeddTech/qwik-blog/commit/b234f3798b334549b74da2cb9d16417bf8793f3b))
-* add fasting to markdownlint ([937d43e](https://github.com/TeddTech/qwik-blog/commit/937d43e293f286b25e66d93b9bf6c3f9d19e0fd0))
-* add fasting to markdownlint ([2826cf2](https://github.com/TeddTech/qwik-blog/commit/2826cf254d7e608c81de11bf6ffb498af3e9dfb0))
-* burger ([bc850ef](https://github.com/TeddTech/qwik-blog/commit/bc850ef6ebfc051e5d7e832b2eec66cf4bac5ab3))
-* **config:** use prod2 for release ([6dd3b34](https://github.com/TeddTech/qwik-blog/commit/6dd3b3480de9d6b1a462aa13e43c83421af4c505))
-* flying commit ([a974aa9](https://github.com/TeddTech/qwik-blog/commit/a974aa92bd910928c65676f1532e16c1f75380f7))
-* jumping commit ([3da32a9](https://github.com/TeddTech/qwik-blog/commit/3da32a945d88f6b62127e4d254f474e73d2207f8))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
-* pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
-* pipeline ([5208961](https://github.com/TeddTech/qwik-blog/commit/520896191999c77450fadd264ad22e8b0630fbd6))
-* release on main ([f3a6509](https://github.com/TeddTech/qwik-blog/commit/f3a65094ba59a1ccd927da88dfd7c422861b18e1))
-* running commit ([d1d8388](https://github.com/TeddTech/qwik-blog/commit/d1d838811d98a08e86c3e1eff839ed0d84a62d41))
-* skating commit ([5995dc8](https://github.com/TeddTech/qwik-blog/commit/5995dc80b6bf37ca894ee4bb81155e99e09853a0))
-* skating commit ([75a4fe2](https://github.com/TeddTech/qwik-blog/commit/75a4fe2bd6e1ad180033b1c9af624374ffc3c1c8))
-* sms ([784d3c6](https://github.com/TeddTech/qwik-blog/commit/784d3c63d647bf31c09f4efe1fa7a285f30cc685))
-* sms ([1f93c93](https://github.com/TeddTech/qwik-blog/commit/1f93c9387f12ef22c97db095124f940889189dc5))
-* speaking commit -m ([25fe9a7](https://github.com/TeddTech/qwik-blog/commit/25fe9a795a940e276738fae280ebfde6bf93bc7a))
-* talking commit ([44e5449](https://github.com/TeddTech/qwik-blog/commit/44e544932130a6344e256c50de2eb2342db23d4b))
-* walking commit ([d8015b1](https://github.com/TeddTech/qwik-blog/commit/d8015b11999e5203f8556ac4cafce7b54aaaf673))
-* walking commit ([4e80d79](https://github.com/TeddTech/qwik-blog/commit/4e80d79a208733e44fea7ae4ad743f5e39e509ec))
-
-
-### chore
-
-* **release:** 4.0.0 [skip ci] ([a42b63f](https://github.com/TeddTech/qwik-blog/commit/a42b63f3227fe467767fd27e1d2c1f58496cbf4b)), closes [#100](https://github.com/TeddTech/qwik-blog/issues/100) [#98](https://github.com/TeddTech/qwik-blog/issues/98)
-
-
-### Continuous Integration
-
-* breaking change ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* skip tag ([26595f3](https://github.com/TeddTech/qwik-blog/commit/26595f37c8d9e5784262e81d809259d524f8c1c7))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* staging3 ([#100](https://github.com/TeddTech/qwik-blog/issues/100)) back in ([07639d8](https://github.com/TeddTech/qwik-blog/commit/07639d888d10dc65020a30dc1019927059bb9e39))
-* staging3 ([#98](https://github.com/TeddTech/qwik-blog/issues/98)) back in ([8c7befe](https://github.com/TeddTech/qwik-blog/commit/8c7befe199a3fedf1ce03b90bc47e8947b49cedd))
-* use prod5 ([da870da](https://github.com/TeddTech/qwik-blog/commit/da870da78828849d760f974dd54917ab7c6dc3c9))
-* use prod5 ([6ad0946](https://github.com/TeddTech/qwik-blog/commit/6ad094658d25c1b80e190be652d3ce4fa528288b))
-
-
-### BREAKING CHANGES
-
-* **release:** ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* v4 to v5
-* v4 to v5
-* this is old
-
-# [4.0.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v4.0.0) (2024-02-22)
-
-
-### Bug Fixes
-
-* add fasting to markdownlint ([b234f37](https://github.com/TeddTech/qwik-blog/commit/b234f3798b334549b74da2cb9d16417bf8793f3b))
-* add fasting to markdownlint ([937d43e](https://github.com/TeddTech/qwik-blog/commit/937d43e293f286b25e66d93b9bf6c3f9d19e0fd0))
-* add fasting to markdownlint ([2826cf2](https://github.com/TeddTech/qwik-blog/commit/2826cf254d7e608c81de11bf6ffb498af3e9dfb0))
-* burger ([bc850ef](https://github.com/TeddTech/qwik-blog/commit/bc850ef6ebfc051e5d7e832b2eec66cf4bac5ab3))
-* **config:** use prod2 for release ([6dd3b34](https://github.com/TeddTech/qwik-blog/commit/6dd3b3480de9d6b1a462aa13e43c83421af4c505))
-* flying commit ([a974aa9](https://github.com/TeddTech/qwik-blog/commit/a974aa92bd910928c65676f1532e16c1f75380f7))
-* jumping commit ([3da32a9](https://github.com/TeddTech/qwik-blog/commit/3da32a945d88f6b62127e4d254f474e73d2207f8))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
-* pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
-* pipeline ([5208961](https://github.com/TeddTech/qwik-blog/commit/520896191999c77450fadd264ad22e8b0630fbd6))
-* running commit ([d1d8388](https://github.com/TeddTech/qwik-blog/commit/d1d838811d98a08e86c3e1eff839ed0d84a62d41))
-* skating commit ([5995dc8](https://github.com/TeddTech/qwik-blog/commit/5995dc80b6bf37ca894ee4bb81155e99e09853a0))
-* skating commit ([75a4fe2](https://github.com/TeddTech/qwik-blog/commit/75a4fe2bd6e1ad180033b1c9af624374ffc3c1c8))
-* speaking commit -m ([25fe9a7](https://github.com/TeddTech/qwik-blog/commit/25fe9a795a940e276738fae280ebfde6bf93bc7a))
-* talking commit ([44e5449](https://github.com/TeddTech/qwik-blog/commit/44e544932130a6344e256c50de2eb2342db23d4b))
-* walking commit ([d8015b1](https://github.com/TeddTech/qwik-blog/commit/d8015b11999e5203f8556ac4cafce7b54aaaf673))
-* walking commit ([4e80d79](https://github.com/TeddTech/qwik-blog/commit/4e80d79a208733e44fea7ae4ad743f5e39e509ec))
-
-
-### Continuous Integration
-
-* breaking change ([0cb702f](https://github.com/TeddTech/qwik-blog/commit/0cb702f061b07774cb90336da04a6c260eec73ae))
-
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* dunking commit ([100211d](https://github.com/TeddTech/qwik-blog/commit/100211de52d06e2cc1c7cba7557725e78d22e5cb))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* staging3 ([#100](https://github.com/TeddTech/qwik-blog/issues/100)) back in ([07639d8](https://github.com/TeddTech/qwik-blog/commit/07639d888d10dc65020a30dc1019927059bb9e39))
-* staging3 ([#98](https://github.com/TeddTech/qwik-blog/issues/98)) back in ([8c7befe](https://github.com/TeddTech/qwik-blog/commit/8c7befe199a3fedf1ce03b90bc47e8947b49cedd))
-* use prod5 ([da870da](https://github.com/TeddTech/qwik-blog/commit/da870da78828849d760f974dd54917ab7c6dc3c9))
-
-
-### BREAKING CHANGES
-
-* v4 to v5
-* this is old
-
-# [4.0.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v4.0.0) (2024-02-20)
-
-
-### Bug Fixes
-
-* add fasting to markdownlint ([b234f37](https://github.com/TeddTech/qwik-blog/commit/b234f3798b334549b74da2cb9d16417bf8793f3b))
-* add fasting to markdownlint ([937d43e](https://github.com/TeddTech/qwik-blog/commit/937d43e293f286b25e66d93b9bf6c3f9d19e0fd0))
-* add fasting to markdownlint ([2826cf2](https://github.com/TeddTech/qwik-blog/commit/2826cf254d7e608c81de11bf6ffb498af3e9dfb0))
-* burger ([bc850ef](https://github.com/TeddTech/qwik-blog/commit/bc850ef6ebfc051e5d7e832b2eec66cf4bac5ab3))
-* **config:** use prod2 for release ([6dd3b34](https://github.com/TeddTech/qwik-blog/commit/6dd3b3480de9d6b1a462aa13e43c83421af4c505))
-* jumping commit ([3da32a9](https://github.com/TeddTech/qwik-blog/commit/3da32a945d88f6b62127e4d254f474e73d2207f8))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
-* pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
-* pipeline ([5208961](https://github.com/TeddTech/qwik-blog/commit/520896191999c77450fadd264ad22e8b0630fbd6))
-* running commit ([d1d8388](https://github.com/TeddTech/qwik-blog/commit/d1d838811d98a08e86c3e1eff839ed0d84a62d41))
-* skating commit ([5995dc8](https://github.com/TeddTech/qwik-blog/commit/5995dc80b6bf37ca894ee4bb81155e99e09853a0))
-* speaking commit -m ([25fe9a7](https://github.com/TeddTech/qwik-blog/commit/25fe9a795a940e276738fae280ebfde6bf93bc7a))
-* talking commit ([44e5449](https://github.com/TeddTech/qwik-blog/commit/44e544932130a6344e256c50de2eb2342db23d4b))
-* walking commit ([d8015b1](https://github.com/TeddTech/qwik-blog/commit/d8015b11999e5203f8556ac4cafce7b54aaaf673))
-* walking commit ([4e80d79](https://github.com/TeddTech/qwik-blog/commit/4e80d79a208733e44fea7ae4ad743f5e39e509ec))
-
-
-### chore
-
-* **sync branch:** Dev ([#126](https://github.com/TeddTech/qwik-blog/issues/126)) ([37c46f0](https://github.com/TeddTech/qwik-blog/commit/37c46f0d2532a7ce80c70e23b5a2318245c37c68))
-
-
-### Features
-
-* dunking commit ([33b6e46](https://github.com/TeddTech/qwik-blog/commit/33b6e46465f4664dee9e174b902bd43f7e2bd1d6))
-* staging3 ([97fb36b](https://github.com/TeddTech/qwik-blog/commit/97fb36b08ff94a36d1db591bdad6ae8b455f2f20))
-* staging3 ([#100](https://github.com/TeddTech/qwik-blog/issues/100)) back in ([07639d8](https://github.com/TeddTech/qwik-blog/commit/07639d888d10dc65020a30dc1019927059bb9e39))
-* staging3 ([#98](https://github.com/TeddTech/qwik-blog/issues/98)) back in ([8c7befe](https://github.com/TeddTech/qwik-blog/commit/8c7befe199a3fedf1ce03b90bc47e8947b49cedd))
-
-
-### BREAKING CHANGES
-
-* **sync branch:** this is old
 
 # [3.3.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v3.3.0) (2024-02-20)
 
-
 ### Bug Fixes
 
 * add fasting to markdownlint ([b234f37](https://github.com/TeddTech/qwik-blog/commit/b234f3798b334549b74da2cb9d16417bf8793f3b))
@@ -434,7 +119,7 @@
 * burger ([bc850ef](https://github.com/TeddTech/qwik-blog/commit/bc850ef6ebfc051e5d7e832b2eec66cf4bac5ab3))
 * **config:** use prod2 for release ([6dd3b34](https://github.com/TeddTech/qwik-blog/commit/6dd3b3480de9d6b1a462aa13e43c83421af4c505))
 * jumping commit ([3da32a9](https://github.com/TeddTech/qwik-blog/commit/3da32a945d88f6b62127e4d254f474e73d2207f8))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
+* Merge branch 'main' of <https://github.com/TeddTech/qwik-blog> ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
 * pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
 * pipeline ([5208961](https://github.com/TeddTech/qwik-blog/commit/520896191999c77450fadd264ad22e8b0630fbd6))
 * running commit ([d1d8388](https://github.com/TeddTech/qwik-blog/commit/d1d838811d98a08e86c3e1eff839ed0d84a62d41))
@@ -443,7 +128,6 @@
 * talking commit ([44e5449](https://github.com/TeddTech/qwik-blog/commit/44e544932130a6344e256c50de2eb2342db23d4b))
 * walking commit ([d8015b1](https://github.com/TeddTech/qwik-blog/commit/d8015b11999e5203f8556ac4cafce7b54aaaf673))
 * walking commit ([4e80d79](https://github.com/TeddTech/qwik-blog/commit/4e80d79a208733e44fea7ae4ad743f5e39e509ec))
-
 
 ### Features
 
@@ -454,7 +138,6 @@
 
 # [3.3.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v3.3.0) (2024-02-20)
 
-
 ### Bug Fixes
 
 * add fasting to markdownlint ([b234f37](https://github.com/TeddTech/qwik-blog/commit/b234f3798b334549b74da2cb9d16417bf8793f3b))
@@ -463,7 +146,7 @@
 * burger ([bc850ef](https://github.com/TeddTech/qwik-blog/commit/bc850ef6ebfc051e5d7e832b2eec66cf4bac5ab3))
 * **config:** use prod2 for release ([6dd3b34](https://github.com/TeddTech/qwik-blog/commit/6dd3b3480de9d6b1a462aa13e43c83421af4c505))
 * jumping commit ([3da32a9](https://github.com/TeddTech/qwik-blog/commit/3da32a945d88f6b62127e4d254f474e73d2207f8))
-* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
+* Merge branch 'main' of <https://github.com/TeddTech/qwik-blog> ([c542a8a](https://github.com/TeddTech/qwik-blog/commit/c542a8a129c18ac8140ec8c59487e06ea316f5ca))
 * pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
 * pipeline ([5208961](https://github.com/TeddTech/qwik-blog/commit/520896191999c77450fadd264ad22e8b0630fbd6))
 * running commit ([d1d8388](https://github.com/TeddTech/qwik-blog/commit/d1d838811d98a08e86c3e1eff839ed0d84a62d41))
@@ -472,7 +155,6 @@
 * talking commit ([44e5449](https://github.com/TeddTech/qwik-blog/commit/44e544932130a6344e256c50de2eb2342db23d4b))
 * walking commit ([d8015b1](https://github.com/TeddTech/qwik-blog/commit/d8015b11999e5203f8556ac4cafce7b54aaaf673))
 * walking commit ([4e80d79](https://github.com/TeddTech/qwik-blog/commit/4e80d79a208733e44fea7ae4ad743f5e39e509ec))
-
 
 ### Features
 
@@ -482,12 +164,10 @@
 
 # [3.3.0](https://github.com/TeddTech/qwik-blog/compare/v3.2.0...v3.3.0) (2024-02-18)
 
-
 ### Bug Fixes
 
 * burger ([bc850ef](https://github.com/TeddTech/qwik-blog/commit/bc850ef6ebfc051e5d7e832b2eec66cf4bac5ab3))
 * pasta ([85f96f7](https://github.com/TeddTech/qwik-blog/commit/85f96f711dac4316f020d01149aaa5631b5b8044))
-
 
 ### Features
 
@@ -495,13 +175,12 @@
 
 # [3.2.0](https://github.com/TeddTech/qwik-blog/compare/v3.1.0...v3.2.0) (2024-02-18)
 
-
 ### Bug Fixes
 
 * **animal:** Gitflow workflow. ([7965463](https://github.com/TeddTech/qwik-blog/commit/7965463ea245aaf00e1e94896c483f677463b63e))
 * **animal:** Gitflow workflow. ([886a3f0](https://github.com/TeddTech/qwik-blog/commit/886a3f09ed7e9a5e9e9ff51b24452d8db13e2bcf))
 * burger ([c40babc](https://github.com/TeddTech/qwik-blog/commit/c40babc89c9943b9c15cf2b9b9cb54a776dfad62))
-* e branch 'staging2' of https://github.com/TeddTech/qwik-blog into staging2 ([da506ef](https://github.com/TeddTech/qwik-blog/commit/da506ef840d2792805c934157df897891243541b))
+* e branch 'staging2' of <https://github.com/TeddTech/qwik-blog> into staging2 ([da506ef](https://github.com/TeddTech/qwik-blog/commit/da506ef840d2792805c934157df897891243541b))
 * hotdog ([b97fdda](https://github.com/TeddTech/qwik-blog/commit/b97fddaa47fd2debc133432902f050de1825bbb6))
 * merge ([f586b0c](https://github.com/TeddTech/qwik-blog/commit/f586b0ce5e2704ede71af5a28481321818ea5dcd))
 * Pie commit. ([27a77f0](https://github.com/TeddTech/qwik-blog/commit/27a77f040c6c306aaa381821f56f2398c81176ec))
@@ -511,7 +190,6 @@
 * **workflow:** Rice commit. ([038b5fe](https://github.com/TeddTech/qwik-blog/commit/038b5fe4d4403dfbfb7a80cf445924780f425a7f))
 * **workflow:** Rice commit. ([84fa69d](https://github.com/TeddTech/qwik-blog/commit/84fa69d108ef9c007a6c6ffbb228ac1ed2e83b50))
 
-
 ### Features
 
 * **release:** Version bump. ([3db195f](https://github.com/TeddTech/qwik-blog/commit/3db195f36e5a98cd68ee11e48e2a888c25e80252))
@@ -519,7 +197,6 @@
 
 # [3.1.0](https://github.com/TeddTech/qwik-blog/compare/v3.0.1...v3.1.0) (2024-02-18)
 
-
 ### Bug Fixes
 
 * Flowing ([265a8ab](https://github.com/TeddTech/qwik-blog/commit/265a8ab0d8afd3b136df8eb73734d7cf996e352b))
@@ -531,7 +208,6 @@
 * **playdough:** Merge branch 'prod' into staging2 ([3ca1d11](https://github.com/TeddTech/qwik-blog/commit/3ca1d11216f9ee0862f4f82a7375dbdc19cd7203))
 * staging2 ([f95a5f3](https://github.com/TeddTech/qwik-blog/commit/f95a5f32279c6013b67ec60aaa1fc57be8454078))
 * **workflow:** Rice commit. ([a4ee7d8](https://github.com/TeddTech/qwik-blog/commit/a4ee7d8c97ed3ea0988770b744487e523f7692c8))
-
 
 ### Features
 
@@ -539,7 +215,6 @@
 
 ## [3.0.2](https://github.com/TeddTech/qwik-blog/compare/v3.0.1...v3.0.2) (2024-02-18)
 
-
 ### Bug Fixes
 
 * Flowing ([265a8ab](https://github.com/TeddTech/qwik-blog/commit/265a8ab0d8afd3b136df8eb73734d7cf996e352b))
@@ -553,7 +228,6 @@
 * **workflow:** Rice commit. ([a4ee7d8](https://github.com/TeddTech/qwik-blog/commit/a4ee7d8c97ed3ea0988770b744487e523f7692c8))
 
 ## [3.0.2](https://github.com/TeddTech/qwik-blog/compare/v3.0.1...v3.0.2) (2024-02-18)
-
 
 ### Bug Fixes
 
