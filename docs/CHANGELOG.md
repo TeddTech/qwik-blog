@@ -1,7 +1,12 @@
 # Semantic Versioning Changelog
 
-## [4.1.5](https://github.com/TeddTech/qwik-blog/compare/v4.1.4...v4.1.5) (2024-02-23)
+## [4.1.6](https://github.com/TeddTech/qwik-blog/compare/v4.1.5...v4.1.6) (2024-02-23)
 
+### Bug Fixes
+
+* go commit ([16e57ad](https://github.com/TeddTech/qwik-blog/commit/16e57addc9dfc8ced6e980d5d3f428396c633f7b))
+
+## [4.1.5](https://github.com/TeddTech/qwik-blog/compare/v4.1.4...v4.1.5) (2024-02-23)
 
 ### Bug Fixes
 
@@ -9,13 +14,11 @@
 
 ## [4.1.4](https://github.com/TeddTech/qwik-blog/compare/v4.1.3...v4.1.4) (2024-02-23)
 
-
 ### Bug Fixes
 
 * stop commit ([3d26017](https://github.com/TeddTech/qwik-blog/commit/3d26017fdfba8eeb2af0f5c5a5993a7f01fb52a6))
 
 ## [4.1.3](https://github.com/TeddTech/qwik-blog/compare/v4.1.2...v4.1.3) (2024-02-23)
-
 
 ### Bug Fixes
 
@@ -23,7 +26,6 @@
 * some ([35dd5c4](https://github.com/TeddTech/qwik-blog/commit/35dd5c47df055e8d2df1055b18eef9ce44245c73))
 
 ## [4.1.2](https://github.com/TeddTech/qwik-blog/compare/v4.1.1...v4.1.2) (2024-02-23)
-
 
 ### Bug Fixes
 
