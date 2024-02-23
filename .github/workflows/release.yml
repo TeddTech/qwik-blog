@@ -33,6 +33,10 @@ jobs:
         run: npm audit signatures
       - name: 'Running Production Build'
         run: npm run build
+      - name: 'List Tags Local'
+        run: git tag
+      - name: 'List Tags Remote'
+        run: git ls-remote --tags origin
       - name: 'Releasing via Semantic Release'
         run: npx semantic-release
         env:
