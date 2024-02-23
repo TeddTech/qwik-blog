@@ -1,5 +1,14 @@
 # Semantic Versioning Changelog
 
+## [4.1.2](https://github.com/TeddTech/qwik-blog/compare/v4.1.1...v4.1.2) (2024-02-23)
+
+
+### Bug Fixes
+
+* changelog ([a0b0201](https://github.com/TeddTech/qwik-blog/commit/a0b0201d3072b695d14654e9dbb330dcbbf7abdb))
+* release on pro ([43b871f](https://github.com/TeddTech/qwik-blog/commit/43b871f0a629cc4c870b1497b71157a8ea0d893e))
+* tall ([3c7139e](https://github.com/TeddTech/qwik-blog/commit/3c7139e04cd72615e10f37982ddf2328bf69445a))
+
 ## [4.1.1](https://github.com/TeddTech/qwik-blog/compare/v4.1.0...v4.1.1) (2024-02-23)
 
 ### Bug Fixes
