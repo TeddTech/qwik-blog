@@ -1,5 +1,15 @@
 # Semantic Versioning Changelog
 
+## [4.1.3](https://github.com/TeddTech/qwik-blog/compare/v4.1.2...v4.1.3) (2024-02-23)
+
+
+### Bug Fixes
+
+* ball commit ([c970721](https://github.com/TeddTech/qwik-blog/commit/c97072181d2355853f739d98ca77b0bf7ae3cde3))
+* medium ([129223d](https://github.com/TeddTech/qwik-blog/commit/129223de8bcb05cef6074d6e752c04350734dd89))
+* Merge branch 'pro' of https://github.com/TeddTech/qwik-blog into pro ([0ccda89](https://github.com/TeddTech/qwik-blog/commit/0ccda895525a105ebe246e4f2d8eabf89e9bc144))
+* sm ([fa10b74](https://github.com/TeddTech/qwik-blog/commit/fa10b74b56a9e865a16f30997b76466b214ae93b))
+
 ## [4.1.2](https://github.com/TeddTech/qwik-blog/compare/v4.1.1...v4.1.2) (2024-02-23)
 
 
