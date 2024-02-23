@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [4.1.6](https://github.com/TeddTech/qwik-blog/compare/v4.1.5...v4.1.6) (2024-02-23)
+
+
+### Bug Fixes
+
+* go commit ([16e57ad](https://github.com/TeddTech/qwik-blog/commit/16e57addc9dfc8ced6e980d5d3f428396c633f7b))
+
 ## [4.1.5](https://github.com/TeddTech/qwik-blog/compare/v4.1.4...v4.1.5) (2024-02-23)
 
 
