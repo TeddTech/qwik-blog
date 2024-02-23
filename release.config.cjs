@@ -1,6 +1,6 @@
 const config = {
 	lastRelease: {
-		version: "4.1.2",
+		version: "v4.1.2",
 	},
 	branches: [
 		{
