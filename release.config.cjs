@@ -1,7 +1,7 @@
 const config = {
 	branches: [
 		{
-			name: "prod111",
+			name: "prod00",
 		},
 		{
 			name: "beta",
