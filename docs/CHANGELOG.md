@@ -1,5 +1,18 @@
 # Semantic Versioning Changelog
 
+## [4.2.2](https://github.com/TeddTech/qwik-blog/compare/v4.2.1...v4.2.2) (2024-02-24)
+
+
+### Bug Fixes
+
+* d commit ([5cabdaf](https://github.com/TeddTech/qwik-blog/commit/5cabdafdb78b37519690d56cc41686a970a61f3f))
+* d commit ([3f4a09f](https://github.com/TeddTech/qwik-blog/commit/3f4a09fe5362500624a784e79ef3ea6551999c78))
+* going commit ([6895241](https://github.com/TeddTech/qwik-blog/commit/6895241bcba4456695113fa697c23494e4c4ae96))
+* Merge branch 'main' of https://github.com/TeddTech/qwik-blog ([de9d825](https://github.com/TeddTech/qwik-blog/commit/de9d8256665ac07b1793b8b4917ec00b352d3fde))
+* release on prod00 ([03c550e](https://github.com/TeddTech/qwik-blog/commit/03c550ead01bb7a98a08787e9a452a6a88f7dd51))
+* release on prod1 ([30ebd6f](https://github.com/TeddTech/qwik-blog/commit/30ebd6f68b31cee5e93d06b05ac434147faefb73))
+* release on prod111 ([aeb275c](https://github.com/TeddTech/qwik-blog/commit/aeb275c2c35caab95131dd5dc2262c628bc22f87))
+
 ## [4.2.1](https://github.com/TeddTech/qwik-blog/compare/v4.2.0...v4.2.1) (2024-02-24)
 
 
