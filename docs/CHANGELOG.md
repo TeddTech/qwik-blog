@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [4.2.6](https://github.com/TeddTech/qwik-blog/compare/v4.2.5...v4.2.6) (2024-02-24)
+
+
+### Performance Improvements
+
+* ⚡️ blue commit ([4795981](https://github.com/TeddTech/qwik-blog/commit/479598153ba254050de2eeab458806bf88ec222f))
+
 ## [4.2.5](https://github.com/TeddTech/qwik-blog/compare/v4.2.4...v4.2.5) (2024-02-24)
 
 
