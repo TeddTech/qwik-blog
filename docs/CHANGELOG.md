@@ -1,5 +1,13 @@
 # Semantic Versioning Changelog
 
+## [4.2.5](https://github.com/TeddTech/qwik-blog/compare/v4.2.4...v4.2.5) (2024-02-24)
+
+
+### Bug Fixes
+
+* **config:** 🏗️ dolphin commit ([2b6f34b](https://github.com/TeddTech/qwik-blog/commit/2b6f34bfb0dace736b3e5aa1cc48f6238fde29e9))
+* **database:** 🗃️ red commit ([9dbfee8](https://github.com/TeddTech/qwik-blog/commit/9dbfee82e7051421ff28b6bb118001dbb2680b6f))
+
 ## [4.2.4](https://github.com/TeddTech/qwik-blog/compare/v4.2.3...v4.2.4) (2024-02-24)
 
 
