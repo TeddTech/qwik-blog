@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [4.2.7](https://github.com/TeddTech/qwik-blog/compare/v4.2.6...v4.2.7) (2024-03-02)
+
+
+### Bug Fixes
+
+* **config:** 🔧 update linter configs ([5496cb0](https://github.com/TeddTech/qwik-blog/commit/5496cb0b4002f767e69da334d1198753f4f1d923))
+
 ## [4.2.6](https://github.com/TeddTech/qwik-blog/compare/v4.2.5...v4.2.6) (2024-02-24)
 
 
