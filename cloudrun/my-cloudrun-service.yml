@@ -16,5 +16,4 @@ spec:
     - percent: 100
       latestRevision: true
       tag: latest
-  auth:
-    allowUnauthenticated: true
+  allowUnauthenticated: true
