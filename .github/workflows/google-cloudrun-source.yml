@@ -103,7 +103,7 @@ jobs:
         id: deploy
         uses: google-github-actions/deploy-cloudrun@v2
         with:
-          metadata: ./cloudrun/my-cloudrun-service.yaml
+          metadata: ./cloudrun/my-cloudrun-service.yml
         #   project_id: ${{ env.PROJECT_ID }}
         #   service: ${{ env.SERVICE }}
         #   region: ${{ env.REGION }}
