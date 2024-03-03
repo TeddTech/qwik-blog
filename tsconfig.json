@@ -38,6 +38,7 @@
 		"src",
 		"./*.d.ts",
 		"./*.config.ts",
-		"tailwind.config.js"
+		"tailwind.config.js",
+		"adapters/*/vite.config.ts"
 	]
 }
