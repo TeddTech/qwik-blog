@@ -99,11 +99,40 @@ jobs:
         with:
           credentials_json: '${{ secrets.SA_CREDS }}'
 
+    #   # envsubst is replacing template variables and creating a YAML Service specification with the new image tag
+    #   - name: Create Service declearation   
+    #     run: |-
+    #       export IMAGE="${{ env.GAR_LOCATION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.SERVICE }}:${{ github.sha }}"
+    #       export SERVICE="${{ env.SERVICE }}"
+    #       envsubst < ./workflows/deploy-cloudrun/service.template.yaml > service.yaml
+
+      # envsubst is replacing template variables and creating a YAML Service specification with the new image tag
+      - name: Create Service declearation (Export Environment Variables)  
+        run: |-
+          export IMAGE="gcr.io/${{env.PROJECT_ID}}/${{env.SERVICE}}"
+          export SERVICE="${{ env.SERVICE }}"
+          export XATA_API_KEY="${{ secrets.XATA_API_KEY }}"
+          export XATA_BRANCH="${{ secrets.XATA_BRANCH }}"
+          export AUTH_SECRET="${{ secrets.AUTH_SECRET }}"
+          export GOOGLE_CLIENT_ID="${{ secrets.GOOGLE_CLIENT_ID }}"
+          export GOOGLE_CLIENT_SECRET="${{ secrets.GOOGLE_CLIENT_SECRET }}"
+          export APPLE_SECRET="${{ secrets.APPLE_SECRET }}"
+          envsubst < ./workflows/deploy-cloudrun/service.template.yaml > service.yaml
+
+      # Deploy Cloud Run Service from the YAML Service specification
       - name: Deploy to Cloud Run
         id: deploy
         uses: google-github-actions/deploy-cloudrun@v2
         with:
-          metadata: ./cloudrun/my-cloudrun-service.yml
+          service: ${{ env.SERVICE }}
+          region: ${{ env.REGION }}
+          metadata: service.yaml
+
+    #   - name: Deploy to Cloud Run
+    #     id: deploy
+    #     uses: google-github-actions/deploy-cloudrun@v2
+    #     with:
+    #       metadata: ./cloudrun/service.template.yaml
         #   project_id: ${{ env.PROJECT_ID }}
         #   service: ${{ env.SERVICE }}
         #   region: ${{ env.REGION }}
