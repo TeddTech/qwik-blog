@@ -11,7 +11,7 @@ spec:
       source:
         git:
           url: https://github.com/TeddTech/qwik-blog.git
-          revision: master
+          revision: main
   traffic:
     - percent: 100
       latestRevision: true
