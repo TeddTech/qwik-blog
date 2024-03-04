@@ -56,7 +56,7 @@ on:
 
 env:
   PROJECT_ID: arched-logic-390516 # TODO: update Google Cloud project id
-  SERVICE: qwik-blog-service1 # TODO: update Cloud Run service name
+  SERVICE: qwik-blog-service # TODO: update Cloud Run service name
   REGION: us-central1 # TODO: update Cloud Run service region
 
 jobs:
@@ -110,6 +110,7 @@ jobs:
       # envsubst is replacing template variables and creating a YAML Service specification with the new image tag
       - name: Create Service declearation (Export Environment Variables)  
         run: |-
+          export IMAGE="us-central1-docker.pkg.dev/arched-logic-390516/cloud-run-source-deploy/qwik-blog-service@sha256:ccb2bfe4eb251713505bfb8c29bdbf5dd2014f097b41240f2120cc57ef39d9b2"
           export SERVICE="${{ env.SERVICE }}"
           export XATA_API_KEY="${{ secrets.XATA_API_KEY }}"
           export XATA_BRANCH="${{ secrets.XATA_BRANCH }}"
@@ -124,7 +125,6 @@ jobs:
         id: deploy
         uses: google-github-actions/deploy-cloudrun@v2
         with:
-          source: ./
           region: ${{ env.REGION }}
           metadata: service.yaml
 
