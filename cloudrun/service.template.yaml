@@ -7,7 +7,7 @@ spec:
     metadata:
       annotations:
         autoscaling.knative.dev/maxScale: '100'
-        run.googleapis.com/ingress: all
+        run.googleapis.com/allow_unauthenticated: "true"
     spec:
       containerConcurrency: 80
       containers:
