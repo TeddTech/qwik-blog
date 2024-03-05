@@ -11,7 +11,7 @@ spec:
     spec:
       containerConcurrency: 80
       containers:
-      - image: ${IMAGE}
+      - name: migos
         env:
         - name: XATA_API_KEY
           value: ${XATA_API_KEY}
@@ -25,6 +25,19 @@ spec:
           value: ${GOOGLE_CLIENT_SECRET}
         - name: APPLE_SECRET
           value: ${APPLE_SECRET}
+      build:
+        apiVersion: build.knative.dev/v1alpha1
+        kind: Build
+        spec:
+          source:
+            git:
+              url: ${SOURCE_URL}
+              revision: main
+          steps:
+            - name: gcr.io/cloud-builders/docker
+              args: ["build", "-t", "gcr.io/${PROJECT_ID}/${SERVICE}:latest", "."]
+            - name: gcr.io/cloud-builders/docker
+              args: ["push", "gcr.io/${PROJECT_ID}/${SERVICE}:latest"]
   traffic:
   - percent: 100
     latestRevision: true

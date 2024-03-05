@@ -45,7 +45,7 @@
 #   Principle of least privilege        - https://cloud.google.com/blog/products/identity-security/dont-get-pwned-practicing-the-principle-of-least-privilege
 
 name: Initialize Cloud Run from Source
-run-name: ${{ github.actor }} is initializing a Cloud Run service
+run-name: ${{ github.actor }} is initializing a Cloud Run service 🎉
 
 on:
   workflow_dispatch:
@@ -120,7 +120,7 @@ jobs:
     #       export APPLE_SECRET="${{ secrets.APPLE_SECRET }}"
     #       envsubst < ./cloudrun/service.template.yaml > service.yaml
 
-      # Deploy Cloud Run Service from the YAML Service specification
+    #   Deploy Cloud Run Service from the YAML Service specification
     #   - name: Deploy to Cloud Run
     #     id: deploy
     #     uses: google-github-actions/deploy-cloudrun@v2
