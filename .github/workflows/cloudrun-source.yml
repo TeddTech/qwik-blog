@@ -55,6 +55,7 @@ on:
 #     branches: [ "main" ]
 
 env:
+  ENV: 'prod'
   PROJECT_ID: arched-logic-390516 # TODO: update Google Cloud project id
   SERVICE: qwik-blog-service # TODO: update Cloud Run service name
   REGION: us-central1 # TODO: update Cloud Run service region
