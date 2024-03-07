@@ -26,7 +26,7 @@ const DEFAULT_HEADERS = {
 		`default-src 'self'`,
 		`base-uri 'self'`,
 		`font-src 'self' https: data:`,
-		`form-action 'self' https://qwik-blog-service-4dcuo5fhla-uc.a.run.app/api/auth/signin/google`,
+		`form-action 'self' https://accounts.google.com/`,
 		`frame-ancestors 'self'`,
 		`img-src 'self' https://raw.githubusercontent.com/xataio/ https://authjs.dev/img/providers/ data:`,
 		`object-src 'none'`,
