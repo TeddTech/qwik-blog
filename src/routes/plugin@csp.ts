@@ -23,4 +23,6 @@ export const onRequest: RequestHandler = async (event) => {
 	];
 
 	event.headers.set("Content-Security-Policy", csp.join("; "));
+	event.headers.set("Cross-Origin-Embedder-Policy", "require-corp");
+	event.headers.set("Cross-Origin-Opener-Policy", "same-origin");
 };
