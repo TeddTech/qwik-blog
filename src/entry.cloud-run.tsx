@@ -26,7 +26,7 @@ const DEFAULT_HEADERS = {
 		`default-src 'self'`,
 		`base-uri 'self'`,
 		`font-src 'self' https: data:`,
-		`form-action 'self' https://accounts.google.com/ https://www.facebook.com/ https://api.instagram.com/oauth/ https://www.tiktok.com/auth/ https://login.tidal.com/ https://api.soundcloud.com/ https://appleid.apple.com/auth/ https://accounts.spotify.com/`,
+		`form-action 'self' https://accounts.google.com/ https://www.facebook.com/ https://api.instagram.com/oauth/ https://www.instagram.com/oauth/ https://www.instagram.com/accounts/ https://www.tiktok.com/auth/ https://login.tidal.com/ https://api.soundcloud.com/ https://appleid.apple.com/auth/ https://accounts.spotify.com/`,
 		`frame-ancestors 'self'`,
 		`img-src 'self' https://raw.githubusercontent.com/xataio/ https://authjs.dev/img/providers/ data:`,
 		`object-src 'none'`,
