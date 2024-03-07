@@ -1,5 +1,5 @@
 name: Release
-run-name: ${{ github.actor }} is automatically releasing 🚀
+run-name: ${{ github.actor }} is cutting a release 🔖
 
 on:
   workflow_dispatch:

@@ -1,0 +1,97 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: qwik-blog-service
+  namespace: '973351496114'
+  selfLink: /apis/serving.knative.dev/v1/namespaces/973351496114/services/qwik-blog-service
+  uid: f337ff5e-c621-4fa6-baff-6f0b701e0b84
+  resourceVersion: AAYSvmsco7Q
+  generation: 1
+  creationTimestamp: '2024-03-03T09:41:15.319998Z'
+  labels:
+    managed-by: github-actions
+    commit-sha: 54cf9ff0c0a8a1977f815ea39fe75a18fd9459c2
+    cloud.googleapis.com/location: us-central1
+  annotations:
+    run.googleapis.com/client-name: gcloud
+    serving.knative.dev/creator: qwik-blog-cloud-run@arched-logic-390516.iam.gserviceaccount.com
+    serving.knative.dev/lastModifier: qwik-blog-cloud-run@arched-logic-390516.iam.gserviceaccount.com
+    run.googleapis.com/client-version: 466.0.0
+    run.googleapis.com/operation-id: 43d44025-9529-4b54-abc5-7de8ddf2a97b
+    run.googleapis.com/ingress: all
+    run.googleapis.com/ingress-status: all
+spec:
+  template:
+    metadata:
+      labels:
+        client.knative.dev/nonce: bkmiippzos
+        managed-by: github-actions
+        commit-sha: 54cf9ff0c0a8a1977f815ea39fe75a18fd9459c2
+        run.googleapis.com/startupProbeType: Default
+      annotations:
+        run.googleapis.com/client-name: gcloud
+        run.googleapis.com/client-version: 466.0.0
+        autoscaling.knative.dev/maxScale: '100'
+        run.googleapis.com/startup-cpu-boost: 'true'
+    spec:
+      allowUnauthenticated: true
+      source:
+        git:
+          url: https://github.com/TeddTech/qwik-blog.git
+          revision: master
+      containerConcurrency: 80
+      timeoutSeconds: 300
+      serviceAccountName: 973351496114-compute@developer.gserviceaccount.com
+      containers:
+      - image: us-central1-docker.pkg.dev/arched-logic-390516/cloud-run-source-deploy/qwik-blog-service@sha256:ccb2bfe4eb251713505bfb8c29bdbf5dd2014f097b41240f2120cc57ef39d9b2
+        ports:
+        - name: http1
+          containerPort: 8080
+        resources:
+          limits:
+            memory: 512Mi
+            cpu: 1000m
+        startupProbe:
+          timeoutSeconds: 240
+          periodSeconds: 240
+          failureThreshold: 1
+          tcpSocket:
+            port: 8080
+        env:
+        - name: XATA_API_KEY
+          value: "93d62d9074adfafdesd3870b"
+        - name: XATA_BRANCH
+          value: "your_apple_secret_value_here"
+        - name: AUTH_SECRET
+          value: "93d62d9074adfafdesd3870b"
+        - name: GOOGLE_CLIENT_ID
+          value: "your_apple_secret_value_here"
+        - name: AGOOGLE_CLIENT_SECRET
+          value: "93d62d9074adfafdesd3870b"
+        - name: APPLE_SECRET
+          value: "your_apple_secret_value_here"
+  traffic:
+  - percent: 100
+    latestRevision: true
+    tag: latest
+status:
+  observedGeneration: 1
+  conditions:
+  - type: Ready
+    status: 'True'
+    lastTransitionTime: '2024-03-03T09:41:50.389172Z'
+  - type: ConfigurationsReady
+    status: 'True'
+    lastTransitionTime: '2024-03-03T09:41:15.446437Z'
+  - type: RoutesReady
+    status: 'True'
+    lastTransitionTime: '2024-03-03T09:41:50.349384Z'
+  latestReadyRevisionName: qwik-blog-service-00001-6zm
+  latestCreatedRevisionName: qwik-blog-service-00001-6zm
+  traffic:
+  - revisionName: qwik-blog-service-00001-6zm
+    percent: 100
+    latestRevision: true
+  url: https://qwik-blog-service-4dcuo5fhla-uc.a.run.app
+  address:
+    url: https://qwik-blog-service-4dcuo5fhla-uc.a.run.app
