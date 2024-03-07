@@ -159,7 +159,7 @@ jobs:
         with:
           service: ${{ env.SERVICE }}
           region: ${{ env.REGION }}
-          revision_traffic: 'LATEST=20'
+          revision_traffic: 'LATEST=100'
 
       - name: Show Adjusted Traffic Output
         run: echo ${{ steps.deploy.outputs.url }}
