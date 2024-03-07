@@ -11,7 +11,7 @@ export const onRequest: RequestHandler = async (event) => {
 		`default-src 'self'`,
 		`base-uri 'self'`,
 		`font-src 'self' https: data:`,
-		`form-action 'self'`,
+		// `form-action 'self'`,
 		`frame-ancestors 'self'`,
 		`img-src 'self' https://raw.githubusercontent.com/ https://authjs.dev/img/providers/google.svg data:`,
 		`object-src 'none'`,
