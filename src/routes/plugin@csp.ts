@@ -13,7 +13,7 @@ export const onRequest: RequestHandler = async (event) => {
 		`font-src 'self' https: data:`,
 		`form-action 'self'`,
 		`frame-ancestors 'self'`,
-		`img-src 'self' https://raw.githubusercontent.com/ https://authjs.dev/img/providers/ data:`,
+		`img-src 'self' https://raw.githubusercontent.com/ https://authjs.dev/img/providers/google.svg data:`,
 		`object-src 'none'`,
 		`script-src 'self' https: 'nonce-${nonce}' 'strict-dynamic'`,
 		`frame-src 'self' 'nonce-${nonce}'`,
@@ -23,6 +23,4 @@ export const onRequest: RequestHandler = async (event) => {
 	];
 
 	event.headers.set("Content-Security-Policy", csp.join("; "));
-	event.headers.set("Cross-Origin-Embedder-Policy", "require-corp");
-	event.headers.set("Cross-Origin-Opener-Policy", "same-origin");
 };
