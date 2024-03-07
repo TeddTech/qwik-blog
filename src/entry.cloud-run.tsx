@@ -39,7 +39,7 @@ const DEFAULT_HEADERS = {
 	"Cross-Origin-Opener-Policy": "same-origin",
 	"Cross-Origin-Resource-Policy": "same-origin",
 	"Origin-Agent-Cluster": "?1",
-	"Referrer-Policy": "no-referrer",
+	// "Referrer-Policy": "no-referrer",
 	"Strict-Transport-Security": "max-age=15552000; includeSubDomains",
 	"X-Content-Type-Options": "nosniff",
 	"X-DNS-Prefetch-Control": "off",
