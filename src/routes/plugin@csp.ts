@@ -7,28 +7,13 @@ export const onRequest: RequestHandler = async (event) => {
 	const nonce = Date.now().toString(36); // Your custom nonce logic here
 	event.sharedMap.set("@nonce", nonce);
 
-	const fetchProviders = await fetch(`${event.url.origin}/api/auth/providers`);
-	if (!fetchProviders.ok) {
-		throw new Error(
-			`Failed to fetch Provider Images: ${fetchProviders.statusText}`,
-		);
-	}
-
-	const providers = await fetchProviders.json();
-	const provider_images = Object.keys(providers)
-		.map(
-			(provider) =>
-				`https://authjs.dev/img/providers/${provider}.svg https://authjs.dev/img/providers/${provider}-dark.svg`,
-		)
-		.join(" ");
-
 	const csp = [
 		`default-src 'self'`,
 		`base-uri 'self'`,
 		`font-src 'self' https: data:`,
 		`form-action 'self'`,
 		`frame-ancestors 'self'`,
-		`img-src 'self' https://raw.githubusercontent.com/ ${provider_images} data:`,
+		`img-src 'self' https://raw.githubusercontent.com/ https://authjs.dev/img/providers/ data:`,
 		`object-src 'none'`,
 		`script-src 'self' https: 'nonce-${nonce}' 'strict-dynamic'`,
 		`frame-src 'self' 'nonce-${nonce}'`,
