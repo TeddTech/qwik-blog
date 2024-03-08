@@ -1,5 +1,21 @@
 # Semantic Versioning Changelog
 
+# [4.3.0](https://github.com/TeddTech/qwik-blog/compare/v4.2.7...v4.3.0) (2024-03-08)
+
+
+### Bug Fixes
+
+* **cd:** 💚 added if statements to package.json scripts ([9eae267](https://github.com/TeddTech/qwik-blog/commit/9eae267e26d2196474676b24bf3d36f8d764ce11))
+* no comments for environment variables in cloud run github actions ([b673576](https://github.com/TeddTech/qwik-blog/commit/b673576d6791e824f76dac7724c29a4b08b839b7))
+* **security:** 🔒️ set csp, coep and coop ([427401a](https://github.com/TeddTech/qwik-blog/commit/427401a3690b29f5b5b8c77a4198aa8077bde1c3))
+
+
+### Features
+
+* add img csp ([40cddaa](https://github.com/TeddTech/qwik-blog/commit/40cddaaca57da84ea015035d0d8d2d1160df7251))
+* **cd:** 💚 use WIF ([0169cd2](https://github.com/TeddTech/qwik-blog/commit/0169cd247da7cf69d711118ba5b467117fc69c02))
+* cloud run integration ([7ad2b15](https://github.com/TeddTech/qwik-blog/commit/7ad2b15658c5d38d81b23d51e7365d267f1798a2))
+
 ## [4.2.7](https://github.com/TeddTech/qwik-blog/compare/v4.2.6...v4.2.7) (2024-03-02)
 
 
