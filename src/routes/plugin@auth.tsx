@@ -15,6 +15,7 @@ export const { onRequest, useAuthSession, useAuthSignin, useAuthSignout } =
 	serverAuth$(({ env }) => ({
 		secret: env.get("AUTH_SECRET"),
 		trustHost: true,
+		// @ts-ignore
 		adapter: XataAdapter(client),
 		providers: [
 			// Sign in with Music

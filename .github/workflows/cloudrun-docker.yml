@@ -85,7 +85,9 @@ jobs:
         run: npm ci
 
       - name: 'Verifying the signatures'
-        run: npm audit signatures
+        run: |-
+          npm i -g npm@latest
+          npm audit signatures
 
       - name: 'Running Production Build'
         run: npm run build
