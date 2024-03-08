@@ -1,0 +1,13 @@
+{
+  "id": "mig_cnler4215eac3p3l64bg",
+  "parentID": "mig_cnleqs215eac3p3l64ag",
+  "checksum": "1:2b329098fb41c68077645f11e3e573d5a323184bfba4a914a54e4d013c855172",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "nextauth_verificationTokens",
+        "oldName": "verificationTokens"
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "databaseURL": "https://Tedd-Tech-s-workspace-emdl7m.us-west-2.xata.sh/db/setup-db",
+  "databaseURL": "https://Tedd-Tech-s-workspace-emdl7m.us-west-2.xata.sh/db/template_db",
   "codegen": {
     "output": "src/xata.ts"
   }

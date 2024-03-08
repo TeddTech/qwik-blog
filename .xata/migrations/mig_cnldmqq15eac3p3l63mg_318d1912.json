@@ -1,6 +1,7 @@
 {
-  "id": "mig_cmkre9tf9p9j8ud9uutg",
-  "checksum": "1:c3fb4971a30d79474e19697e7b5cc43322ff93537734473ac12bdba96c75afb6",
+  "id": "mig_cnldmqq15eac3p3l63mg",
+  "parentID": "mig_cnldhn215eac3p3l63hg",
+  "checksum": "1:318d19129948bcb79d0e5952574657a011bde9b56f30baf30c4ebdb67dd4d241",
   "operations": [
     {
       "addTable": {
