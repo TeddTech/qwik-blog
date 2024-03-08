@@ -1,0 +1,95 @@
+name: Deploy to Cloud Run from Source
+run-name: ${{ github.actor }} deploying a Cloud Run service from Source 🚀
+
+on:
+  workflow_dispatch:
+
+# on:
+#   push:
+#     branches: [ "prod" ]
+
+env:
+  ENV: 'prod'
+  PROJECT_ID: arched-logic-390516 # TODO: update Google Cloud project id
+  SERVICE: qwik-blog-service # TODO: update Cloud Run service name
+  REGION: us-central1 # TODO: update Cloud Run service region
+
+jobs:
+  initialize:
+    name: initialize
+    # Add 'id-token' with the intended permissions for workload identity federation
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v4
+
+      - name: 'Setting up Node'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 'Installing dependencies'
+        run: npm ci
+
+      - name: 'Verifying the signatures'
+        run: |-
+          npm audit signatures
+
+      - name: 'Running Production Build'
+        run: npm run build
+
+      - name: Google Auth
+        id: auth
+        uses: 'google-github-actions/auth@v1'
+        with:
+          workload_identity_provider: '${{ secrets.WIF_PROVIDER }}' # e.g. - projects/123456789/locations/global/workloadIdentityPools/my-pool/providers/my-provider
+          service_account: '${{ secrets.WIF_SERVICE_ACCOUNT_EMAIL}}' # e.g. - my-service-account@my-project.iam.gserviceaccount.com
+
+      - name: Show Output of Google Auth
+        run: |-
+          echo ${{ steps.auth.outputs.access_token_expiration }}
+
+      - name: Deploy to Cloud Run
+        id: deploy
+        uses: google-github-actions/deploy-cloudrun@v2
+        with:
+        #   NOTE: If required, update to the appropriate source folder
+          source: ./
+          suffix: 'temp'
+          project_id: ${{ env.PROJECT_ID }}
+          service: ${{ env.SERVICE }}
+          region: ${{ env.REGION }}
+          no_traffic: true
+          timeout: '300s'
+          flags: '--allow-unauthenticated --min-instances=0 --cpu-throttling'
+          # --cpu-boost
+          # --max-instances=10
+          # --ingress=internal-and-cloud-load-balancing
+          # --port=8080
+          # --cpu=1
+          # --memory=512MiB
+          # --concurrency=80
+          # --execution-environment=gen2
+          env_vars: |
+            XATA_API_KEY=${{ secrets.XATA_API_KEY }}
+            XATA_BRANCH=${{ secrets.XATA_BRANCH }}
+            AUTH_SECRET=${{ secrets.AUTH_SECRET }}
+            GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }}
+            GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }}
+            APPLE_SECRET=${{ secrets.APPLE_SECRET }}
+
+      # If required, use the Cloud Run url output in later steps
+      - name: Show Output Deployment Output
+        run: echo ${{ steps.deploy.outputs.url }}
+
+      - name: Adjust Traffic
+        id: traffic
+        uses: google-github-actions/deploy-cloudrun@v2
+        with:
+          service: ${{ env.SERVICE }}
+          region: ${{ env.REGION }}
+          revision_traffic: '${{ env.SERVICE }}-temp=100'

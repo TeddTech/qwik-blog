@@ -1,0 +1,19 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: qwik-blog-service
+spec:
+  template:
+    spec:
+      containers:
+        - image: gcr.io/arched-logic-390516/qwik-blog-service
+      serviceAccountName: qwik-blog-cloud-run
+      source:
+        git:
+          url: https://github.com/TeddTech/qwik-blog.git
+          revision: main
+  traffic:
+    - percent: 100
+      latestRevision: true
+      tag: latest
+  allowUnauthenticated: true
