@@ -1,0 +1,279 @@
+{
+  "id": "mig_cnldhn215eac3p3l63hg",
+  "checksum": "1:643c432dce5e308452be6ac653cd21f3a7bba991d3d2da632038860ef15d66ce",
+  "operations": [
+    {
+      "addTable": {
+        "table": "users"
+      }
+    },
+    {
+      "addTable": {
+        "table": "accounts"
+      }
+    },
+    {
+      "addTable": {
+        "table": "verificationTokens"
+      }
+    },
+    {
+      "addTable": {
+        "table": "users_accounts"
+      }
+    },
+    {
+      "addTable": {
+        "table": "users_sessions"
+      }
+    },
+    {
+      "addTable": {
+        "table": "sessions"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "email",
+          "type": "email"
+        },
+        "table": "users"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "emailVerified",
+          "type": "datetime"
+        },
+        "table": "users"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "name",
+          "type": "string"
+        },
+        "table": "users"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "image",
+          "type": "string"
+        },
+        "table": "users"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "users"
+          }
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "type",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "provider",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "providerAccountId",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "refresh_token",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "access_token",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "expires_at",
+          "type": "int"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "token_type",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "scope",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "id_token",
+          "type": "text"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "session_state",
+          "type": "string"
+        },
+        "table": "accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "identifier",
+          "type": "string"
+        },
+        "table": "verificationTokens"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "token",
+          "type": "string"
+        },
+        "table": "verificationTokens"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "expires",
+          "type": "datetime"
+        },
+        "table": "verificationTokens"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "users"
+          }
+        },
+        "table": "users_accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "account",
+          "type": "link",
+          "link": {
+            "table": "accounts"
+          }
+        },
+        "table": "users_accounts"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "users"
+          }
+        },
+        "table": "users_sessions"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "session",
+          "type": "link",
+          "link": {
+            "table": "sessions"
+          }
+        },
+        "table": "users_sessions"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "sessionToken",
+          "type": "string"
+        },
+        "table": "sessions"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "expires",
+          "type": "datetime"
+        },
+        "table": "sessions"
+      }
+    },
+    {
+      "addColumn": {
+        "column": {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "users"
+          }
+        },
+        "table": "sessions"
+      }
+    }
+  ]
+}

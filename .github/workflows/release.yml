@@ -4,12 +4,18 @@ run-name: ${{ github.actor }} is cutting a release 🔖
 on:
   workflow_dispatch:
 
+env:
+  ENV: 'prod'
+  XATA_API_KEY: ${{ secrets.XATA_API_KEY }}
+  XATA_BRANCH: ${{ secrets.XATA_BRANCH }}
+
 jobs:
   release:
     permissions:
       contents: write
       issues: write
       pull-requests: write
+
     runs-on: ubuntu-latest
     steps:
       - name: 'Generate token'
@@ -18,21 +24,29 @@ jobs:
         with:
           app_id: ${{ secrets.PROTECTED_MERGE_APP_ID }}
           private_key: ${{ secrets.PROTECTED_MERGE_PRIVATE_KEY }}
+
       - name: 'Checking out code'
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{ steps.generate_token.outputs.token }}
+
       - name: 'Setting up Node'
         uses: actions/setup-node@v3
         with:
           node-version: 20
+
       - name: 'Installing dependencies'
         run: npm ci
+
       - name: 'Verifying the signatures'
-        run: npm audit signatures
+        run: |-
+          npm i -g npm@latest
+          npm audit signatures
+
       - name: 'Running Production Build'
         run: npm run build
+
       - name: 'Releasing via Semantic Release'
         run: npx semantic-release
         env:

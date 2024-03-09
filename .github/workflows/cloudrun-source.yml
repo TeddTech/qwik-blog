@@ -13,6 +13,8 @@ env:
   PROJECT_ID: arched-logic-390516 # TODO: update Google Cloud project id
   SERVICE: qwik-blog-service # TODO: update Cloud Run service name
   REGION: us-central1 # TODO: update Cloud Run service region
+  XATA_API_KEY: ${{ secrets.XATA_API_KEY }}
+  XATA_BRANCH: ${{ secrets.XATA_BRANCH }}
 
 jobs:
   initialize:
@@ -37,6 +39,7 @@ jobs:
 
       - name: 'Verifying the signatures'
         run: |-
+          npm i -g npm@latest
           npm audit signatures
 
       - name: 'Running Production Build'
@@ -59,7 +62,6 @@ jobs:
         with:
         #   NOTE: If required, update to the appropriate source folder
           source: ./
-          suffix: 'temp'
           project_id: ${{ env.PROJECT_ID }}
           service: ${{ env.SERVICE }}
           region: ${{ env.REGION }}
@@ -75,8 +77,8 @@ jobs:
           # --concurrency=80
           # --execution-environment=gen2
           env_vars: |
-            XATA_API_KEY=${{ secrets.XATA_API_KEY }}
-            XATA_BRANCH=${{ secrets.XATA_BRANCH }}
+            XATA_API_KEY=${{ env.XATA_API_KEY }}
+            XATA_BRANCH=${{ env.XATA_BRANCH }}
             AUTH_SECRET=${{ secrets.AUTH_SECRET }}
             GOOGLE_CLIENT_ID=${{ secrets.GOOGLE_CLIENT_ID }}
             GOOGLE_CLIENT_SECRET=${{ secrets.GOOGLE_CLIENT_SECRET }}
@@ -92,4 +94,4 @@ jobs:
         with:
           service: ${{ env.SERVICE }}
           region: ${{ env.REGION }}
-          revision_traffic: '${{ env.SERVICE }}-temp=100'
+          revision_traffic: 'LATEST=100'

@@ -1,0 +1,13 @@
+{
+  "id": "mig_cnleqqa15eac3p3l649g",
+  "parentID": "mig_cnleqn215eac3p3l648g",
+  "checksum": "1:f7fd3505e90f36384149e9ff8418cacf52a17fbbf3382ecf8f71d5c2d741801d",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "nextauth_users_accounts",
+        "oldName": "users_accounts"
+      }
+    }
+  ]
+}

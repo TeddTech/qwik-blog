@@ -14,7 +14,6 @@ export default component$(() => {
 	const post = useBlogPost();
 	return (
 		<div class="mt-16 w-full max-w-5xl">
-			<p>{`keyword: ${post.value?.keyword}`}</p>
 			<p class="mb-2">
 				<Link href="/" class="text-purple-600">
 					&larr; Back to blog
