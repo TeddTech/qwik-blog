@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
 
-# npm test
-npx lint-staged
+# Check if running in a CI environment
+if [ -z "$CI" ]; then
+  . "$(dirname -- "$0")/_/husky.sh"
+  # npm test
+  npx lint-staged
+fi
