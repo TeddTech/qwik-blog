@@ -1,5 +1,20 @@
 # Semantic Versioning Changelog
 
+# [4.4.0](https://github.com/TeddTech/qwik-blog/compare/v4.3.0...v4.4.0) (2024-03-09)
+
+
+### Bug Fixes
+
+* ignore authjs adapter property and remove keword column from post table ([7c6bc9d](https://github.com/TeddTech/qwik-blog/commit/7c6bc9d1a63adc480f114120aaf0482256c17a06))
+* **release:** 🔖 verifying the signatures ([16bd66b](https://github.com/TeddTech/qwik-blog/commit/16bd66b6884d3b8711fba183332edc0dd9c8955f))
+* skip lint-stage in workflows ([4acb734](https://github.com/TeddTech/qwik-blog/commit/4acb734e3d2e06bf830e80096d463818270d8a23))
+* update build env vars ([6696440](https://github.com/TeddTech/qwik-blog/commit/669644065ad7c7dd4911e59e2e81a35782908bd3))
+
+
+### Features
+
+* **database:** 🗃️ authjs xata adapter integration ([bd93e13](https://github.com/TeddTech/qwik-blog/commit/bd93e131c416fa9b9d46dd924c4b23f61d121b75))
+
 # [4.3.0](https://github.com/TeddTech/qwik-blog/compare/v4.2.7...v4.3.0) (2024-03-08)
 
 
