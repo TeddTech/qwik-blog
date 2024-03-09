@@ -63,6 +63,8 @@ env:
   REPOSITORY: YOUR_REPOSITORY_NAME # TODO: update Artifact Registry repository name
   SERVICE: qwik-blog-service01 # TODO: update Cloud Run service name
   REGION: us-central1 # TODO: update Cloud Run service region
+  XATA_API_KEY: ${{ secrets.XATA_API_KEY }}
+  XATA_BRANCH: ${{ secrets.XATA_BRANCH }}
 
 jobs:
   deploy:
@@ -133,8 +135,8 @@ jobs:
           export IMAGE="${{ env.GAR_LOCATION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.SERVICE }}:${{ github.sha }}"
           export IMAGE="${{ env.GAR_LOCATION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.SERVICE }}:${{ github.sha }}"
           export SERVICE="${{ env.SERVICE }}"
-          export XATA_API_KEY="${{ secrets.XATA_API_KEY }}"
-          export XATA_BRANCH="${{ secrets.XATA_BRANCH }}"
+          export XATA_API_KEY="${{ env.XATA_API_KEY }}"
+          export XATA_BRANCH="${{ env.XATA_BRANCH }}"
           export AUTH_SECRET="${{ secrets.AUTH_SECRET }}"
           export GOOGLE_CLIENT_ID="${{ secrets.GOOGLE_CLIENT_ID }}"
           export GOOGLE_CLIENT_SECRET="${{ secrets.GOOGLE_CLIENT_SECRET }}"
