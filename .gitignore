@@ -3,7 +3,7 @@
 /lib
 /lib-types
 /server
-cloudrun/my-cloudrun-service.yaml
+/cloudrun/my-cloudrun-service.yaml
 
 # Development
 node_modules
