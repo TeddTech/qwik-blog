@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [4.4.1](https://github.com/TeddTech/qwik-blog/compare/v4.4.0...v4.4.1) (2024-03-16)
+
+
+### Bug Fixes
+
+* **release:** 🔥 remove build folders from relase commit ([9a13b4d](https://github.com/TeddTech/qwik-blog/commit/9a13b4dae9f025112f744d38eb372d5f337e6781))
+
 # [4.4.0](https://github.com/TeddTech/qwik-blog/compare/v4.3.0...v4.4.0) (2024-03-09)
 
 
